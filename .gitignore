@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+
+# Models
+*.pkl
+
+# Logs
+*.log
+
+# Data
+*.csv
+*.jsonl
+
+# Keys
+*.p8
+
+# Mac
+.DS_Store
