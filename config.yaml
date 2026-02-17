@@ -1,0 +1,6 @@
+
+project_id: "your-fraud-detection-project"
+region: "us-central1"
+bucket_name: "fraud-detection-data-bucket"
+model_display_name: "fraud-detection-classifier"
+model_description: "Binary classifier for fraud detection"

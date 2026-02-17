@@ -1,0 +1,13 @@
+{
+  "total_transactions": 20,
+  "fraud_detected": 5,
+  "fraud_rate_percent": 25.0,
+  "risk_distribution": {
+    "high_risk": 5,
+    "medium_risk": 0,
+    "low_risk": 15
+  },
+  "avg_fraud_probability": 0.2462,
+  "max_fraud_probability": 1.0,
+  "timestamp": "2026-02-11T04:55:13.838727"
+}

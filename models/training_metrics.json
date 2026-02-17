@@ -1,0 +1,19 @@
+{
+  "model_type": "random_forest",
+  "training_samples": 35000,
+  "cv_roc_auc_mean": 0.9999996595068457,
+  "cv_roc_auc_std": 4.1701786785254115e-07,
+  "training_accuracy": 0.9998,
+  "training_timestamp": "2026-02-11T04:50:59.625667",
+  "feature_importance": {
+    "transaction_amount": 0.05850796164118307,
+    "transaction_hour": 0.00936859072997822,
+    "day_of_week": 0.06433960039596309,
+    "card_present": 0.11178010723964239,
+    "international": 0.002924008370352912,
+    "distance_from_home": 0.26886476545607163,
+    "prev_transaction_count": 0.47961408698519425,
+    "avg_transaction_amount": 0.00039480029560189865,
+    "merchant_category": 0.004206078886012447
+  }
+}

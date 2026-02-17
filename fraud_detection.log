@@ -1,0 +1,4434 @@
+2026-02-11 04:41:35,309 | INFO     | ============================================================
+2026-02-11 04:41:35,309 | INFO     | FRAUD DETECTION CONSUMER STARTING
+2026-02-11 04:41:35,309 | INFO     | ============================================================
+2026-02-11 04:41:35,309 | INFO     | Topic: ecommerce-transactions
+2026-02-11 04:41:35,309 | INFO     | Bootstrap Servers: ['localhost:9092']
+2026-02-11 04:41:35,309 | INFO     | Batch Interval: 30 seconds
+2026-02-11 04:41:35,309 | INFO     | Amount Threshold: $1000.0
+2026-02-11 04:41:35,310 | INFO     | ============================================================
+2026-02-11 04:41:35,310 | WARNING  | Kafka not available - running in simulation mode
+2026-02-11 04:41:35,310 | INFO     | Running in SIMULATION mode (generating sample transactions)
+2026-02-11 04:41:35,310 | INFO     | Processed transaction: ID=TXN-164452, Amount=$4365.51, User=USER-4438
+2026-02-11 04:41:35,310 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $4365.51 exceeds threshold of $1000.00
+Transaction ID: TXN-164452
+User ID: USER-4438
+Amount: $4365.51
+Merchant: MERCH-883
+Country: FR
+Detected At: 2026-02-11T04:41:35.310351
+============================================================
+2026-02-11 04:41:37,178 | INFO     | Processed transaction: ID=TXN-346333, Amount=$352.56, User=USER-5321
+2026-02-11 04:41:38,719 | INFO     | Processed transaction: ID=TXN-976722, Amount=$3058.37, User=USER-6408
+2026-02-11 04:41:38,719 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $3058.37 exceeds threshold of $1000.00
+Transaction ID: TXN-976722
+User ID: USER-6408
+Amount: $3058.37
+Merchant: MERCH-667
+Country: JP
+Detected At: 2026-02-11T04:41:38.719023
+============================================================
+2026-02-11 04:41:39,541 | INFO     | Processed transaction: ID=TXN-245546, Amount=$1920.82, User=USER-6931
+2026-02-11 04:41:39,541 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $1920.82 exceeds threshold of $1000.00
+Transaction ID: TXN-245546
+User ID: USER-6931
+Amount: $1920.82
+Merchant: MERCH-895
+Country: CA
+Detected At: 2026-02-11T04:41:39.541147
+============================================================
+2026-02-11 04:41:40,422 | INFO     | Processed transaction: ID=TXN-672083, Amount=$3025.69, User=USER-5365
+2026-02-11 04:41:40,422 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $3025.69 exceeds threshold of $1000.00
+Transaction ID: TXN-672083
+User ID: USER-5365
+Amount: $3025.69
+Merchant: MERCH-205
+Country: CA
+Detected At: 2026-02-11T04:41:40.422626
+============================================================
+2026-02-11 04:41:41,337 | INFO     | Processed transaction: ID=TXN-830335, Amount=$479.44, User=USER-1233
+2026-02-11 04:41:41,338 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 6 transactions in the last minute
+Transaction ID: TXN-830335
+User ID: USER-1233
+Amount: $479.44
+Merchant: MERCH-542
+Country: DE
+Detected At: 2026-02-11T04:41:41.337958
+============================================================
+2026-02-11 04:41:42,430 | INFO     | Processed transaction: ID=TXN-288565, Amount=$4286.65, User=USER-1588
+2026-02-11 04:41:42,431 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $4286.65 exceeds threshold of $1000.00
+Transaction ID: TXN-288565
+User ID: USER-1588
+Amount: $4286.65
+Merchant: MERCH-818
+Country: UK
+Detected At: 2026-02-11T04:41:42.430883
+============================================================
+2026-02-11 04:41:42,431 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 7 transactions in the last minute
+Transaction ID: TXN-288565
+User ID: USER-1588
+Amount: $4286.65
+Merchant: MERCH-818
+Country: UK
+Detected At: 2026-02-11T04:41:42.430893
+============================================================
+2026-02-11 04:41:44,372 | INFO     | Processed transaction: ID=TXN-155797, Amount=$3451.54, User=USER-3320
+2026-02-11 04:41:44,373 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $3451.54 exceeds threshold of $1000.00
+Transaction ID: TXN-155797
+User ID: USER-3320
+Amount: $3451.54
+Merchant: MERCH-686
+Country: JP
+Detected At: 2026-02-11T04:41:44.372958
+============================================================
+2026-02-11 04:41:44,373 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 8 transactions in the last minute
+Transaction ID: TXN-155797
+User ID: USER-3320
+Amount: $3451.54
+Merchant: MERCH-686
+Country: JP
+Detected At: 2026-02-11T04:41:44.372969
+============================================================
+2026-02-11 04:41:45,977 | INFO     | Processed transaction: ID=TXN-814189, Amount=$1993.94, User=USER-3108
+2026-02-11 04:41:45,977 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $1993.94 exceeds threshold of $1000.00
+Transaction ID: TXN-814189
+User ID: USER-3108
+Amount: $1993.94
+Merchant: MERCH-499
+Country: DE
+Detected At: 2026-02-11T04:41:45.977501
+============================================================
+2026-02-11 04:41:45,977 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 9 transactions in the last minute
+Transaction ID: TXN-814189
+User ID: USER-3108
+Amount: $1993.94
+Merchant: MERCH-499
+Country: DE
+Detected At: 2026-02-11T04:41:45.977514
+============================================================
+2026-02-11 04:41:47,696 | INFO     | Processed transaction: ID=TXN-796067, Amount=$993.94, User=USER-7060
+2026-02-11 04:41:47,696 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 10 transactions in the last minute
+Transaction ID: TXN-796067
+User ID: USER-7060
+Amount: $993.94
+Merchant: MERCH-906
+Country: FR
+Detected At: 2026-02-11T04:41:47.696416
+============================================================
+2026-02-11 04:41:49,327 | INFO     | Processed transaction: ID=TXN-333485, Amount=$964.76, User=USER-1621
+2026-02-11 04:41:49,327 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 11 transactions in the last minute
+Transaction ID: TXN-333485
+User ID: USER-1621
+Amount: $964.76
+Merchant: MERCH-453
+Country: US
+Detected At: 2026-02-11T04:41:49.327330
+============================================================
+2026-02-11 21:24:31,694 | INFO     | ============================================================
+2026-02-11 21:24:31,694 | INFO     | FRAUD DETECTION CONSUMER STARTING
+2026-02-11 21:24:31,694 | INFO     | ============================================================
+2026-02-11 21:24:31,694 | INFO     | Topic: ecommerce-transactions
+2026-02-11 21:24:31,694 | INFO     | Bootstrap Servers: ['localhost:9095']
+2026-02-11 21:24:31,694 | INFO     | Batch Interval: 30 seconds
+2026-02-11 21:24:31,694 | INFO     | Amount Threshold: $1000.0
+2026-02-11 21:24:31,694 | INFO     | ============================================================
+2026-02-11 21:24:31,694 | WARNING  | Kafka not available - running in simulation mode
+2026-02-11 21:24:31,694 | INFO     | Running in SIMULATION mode (generating sample transactions)
+2026-02-11 21:24:31,694 | INFO     | Processed transaction: ID=TXN-552577, Amount=$4264.75, User=USER-6242
+2026-02-11 21:24:31,694 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $4264.75 exceeds threshold of $1000.00
+Transaction ID: TXN-552577
+User ID: USER-6242
+Amount: $4264.75
+Merchant: MERCH-796
+Country: JP
+Detected At: 2026-02-11T21:24:31.694646
+============================================================
+2026-02-11 21:24:33,225 | INFO     | Processed transaction: ID=TXN-464191, Amount=$3055.45, User=USER-4146
+2026-02-11 21:24:33,225 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $3055.45 exceeds threshold of $1000.00
+Transaction ID: TXN-464191
+User ID: USER-4146
+Amount: $3055.45
+Merchant: MERCH-286
+Country: CA
+Detected At: 2026-02-11T21:24:33.225240
+============================================================
+2026-02-11 21:24:34,680 | INFO     | Processed transaction: ID=TXN-557306, Amount=$4481.03, User=USER-7338
+2026-02-11 21:24:34,680 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $4481.03 exceeds threshold of $1000.00
+Transaction ID: TXN-557306
+User ID: USER-7338
+Amount: $4481.03
+Merchant: MERCH-582
+Country: FR
+Detected At: 2026-02-11T21:24:34.680224
+============================================================
+2026-02-11 21:24:36,372 | INFO     | Processed transaction: ID=TXN-176134, Amount=$4716.89, User=USER-6312
+2026-02-11 21:24:36,372 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $4716.89 exceeds threshold of $1000.00
+Transaction ID: TXN-176134
+User ID: USER-6312
+Amount: $4716.89
+Merchant: MERCH-278
+Country: DE
+Detected At: 2026-02-11T21:24:36.372499
+============================================================
+2026-02-11 21:24:37,752 | INFO     | Processed transaction: ID=TXN-489103, Amount=$1096.36, User=USER-3988
+2026-02-11 21:24:37,753 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟢 LOW
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $1096.36 exceeds threshold of $1000.00
+Transaction ID: TXN-489103
+User ID: USER-3988
+Amount: $1096.36
+Merchant: MERCH-848
+Country: JP
+Detected At: 2026-02-11T21:24:37.752696
+============================================================
+2026-02-11 21:24:39,650 | INFO     | Processed transaction: ID=TXN-944189, Amount=$725.33, User=USER-2253
+2026-02-11 21:24:39,651 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 6 transactions in the last minute
+Transaction ID: TXN-944189
+User ID: USER-2253
+Amount: $725.33
+Merchant: MERCH-107
+Country: US
+Detected At: 2026-02-11T21:24:39.650606
+============================================================
+2026-02-11 21:24:41,599 | INFO     | Processed transaction: ID=TXN-692890, Amount=$1971.73, User=USER-2813
+2026-02-11 21:24:41,599 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $1971.73 exceeds threshold of $1000.00
+Transaction ID: TXN-692890
+User ID: USER-2813
+Amount: $1971.73
+Merchant: MERCH-850
+Country: FR
+Detected At: 2026-02-11T21:24:41.599029
+============================================================
+2026-02-11 21:24:41,599 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 7 transactions in the last minute
+Transaction ID: TXN-692890
+User ID: USER-2813
+Amount: $1971.73
+Merchant: MERCH-850
+Country: FR
+Detected At: 2026-02-11T21:24:41.599057
+============================================================
+2026-02-11 21:24:42,553 | INFO     | Processed transaction: ID=TXN-882878, Amount=$2926.49, User=USER-4454
+2026-02-11 21:24:42,553 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $2926.49 exceeds threshold of $1000.00
+Transaction ID: TXN-882878
+User ID: USER-4454
+Amount: $2926.49
+Merchant: MERCH-588
+Country: US
+Detected At: 2026-02-11T21:24:42.553079
+============================================================
+2026-02-11 21:24:42,553 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 8 transactions in the last minute
+Transaction ID: TXN-882878
+User ID: USER-4454
+Amount: $2926.49
+Merchant: MERCH-588
+Country: US
+Detected At: 2026-02-11T21:24:42.553105
+============================================================
+2026-02-11 21:24:43,714 | INFO     | Processed transaction: ID=TXN-626898, Amount=$3972.59, User=USER-6776
+2026-02-11 21:24:43,715 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $3972.59 exceeds threshold of $1000.00
+Transaction ID: TXN-626898
+User ID: USER-6776
+Amount: $3972.59
+Merchant: MERCH-496
+Country: DE
+Detected At: 2026-02-11T21:24:43.714594
+============================================================
+2026-02-11 21:24:43,715 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 9 transactions in the last minute
+Transaction ID: TXN-626898
+User ID: USER-6776
+Amount: $3972.59
+Merchant: MERCH-496
+Country: DE
+Detected At: 2026-02-11T21:24:43.714621
+============================================================
+2026-02-11 21:24:44,683 | INFO     | Processed transaction: ID=TXN-557136, Amount=$1949.07, User=USER-1135
+2026-02-11 21:24:44,683 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $1949.07 exceeds threshold of $1000.00
+Transaction ID: TXN-557136
+User ID: USER-1135
+Amount: $1949.07
+Merchant: MERCH-429
+Country: FR
+Detected At: 2026-02-11T21:24:44.683255
+============================================================
+2026-02-11 21:24:44,683 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 10 transactions in the last minute
+Transaction ID: TXN-557136
+User ID: USER-1135
+Amount: $1949.07
+Merchant: MERCH-429
+Country: FR
+Detected At: 2026-02-11T21:24:44.683279
+============================================================
+2026-02-11 21:24:46,439 | INFO     | Processed transaction: ID=TXN-839736, Amount=$1518.81, User=USER-2724
+2026-02-11 21:24:46,439 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $1518.81 exceeds threshold of $1000.00
+Transaction ID: TXN-839736
+User ID: USER-2724
+Amount: $1518.81
+Merchant: MERCH-851
+Country: FR
+Detected At: 2026-02-11T21:24:46.439752
+============================================================
+2026-02-11 21:24:46,440 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 11 transactions in the last minute
+Transaction ID: TXN-839736
+User ID: USER-2724
+Amount: $1518.81
+Merchant: MERCH-851
+Country: FR
+Detected At: 2026-02-11T21:24:46.439760
+============================================================
+2026-02-11 21:24:47,480 | INFO     | Processed transaction: ID=TXN-616682, Amount=$699.72, User=USER-8429
+2026-02-11 21:24:47,481 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 12 transactions in the last minute
+Transaction ID: TXN-616682
+User ID: USER-8429
+Amount: $699.72
+Merchant: MERCH-795
+Country: CA
+Detected At: 2026-02-11T21:24:47.480532
+============================================================
+2026-02-11 21:24:49,129 | INFO     | Processed transaction: ID=TXN-355847, Amount=$1261.72, User=USER-6995
+2026-02-11 21:24:49,130 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟢 LOW
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $1261.72 exceeds threshold of $1000.00
+Transaction ID: TXN-355847
+User ID: USER-6995
+Amount: $1261.72
+Merchant: MERCH-604
+Country: FR
+Detected At: 2026-02-11T21:24:49.129532
+============================================================
+2026-02-11 21:24:49,130 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 13 transactions in the last minute
+Transaction ID: TXN-355847
+User ID: USER-6995
+Amount: $1261.72
+Merchant: MERCH-604
+Country: FR
+Detected At: 2026-02-11T21:24:49.129558
+============================================================
+2026-02-11 21:24:49,705 | INFO     | Processed transaction: ID=TXN-147403, Amount=$328.45, User=USER-8014
+2026-02-11 21:24:49,705 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 14 transactions in the last minute
+Transaction ID: TXN-147403
+User ID: USER-8014
+Amount: $328.45
+Merchant: MERCH-148
+Country: CA
+Detected At: 2026-02-11T21:24:49.705381
+============================================================
+2026-02-11 21:24:51,091 | INFO     | Processed transaction: ID=TXN-749204, Amount=$202.17, User=USER-7060
+2026-02-11 21:24:51,091 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 15 transactions in the last minute
+Transaction ID: TXN-749204
+User ID: USER-7060
+Amount: $202.17
+Merchant: MERCH-604
+Country: UK
+Detected At: 2026-02-11T21:24:51.091354
+============================================================
+2026-02-11 21:24:52,808 | INFO     | Processed transaction: ID=TXN-890887, Amount=$2995.45, User=USER-8463
+2026-02-11 21:24:52,809 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $2995.45 exceeds threshold of $1000.00
+Transaction ID: TXN-890887
+User ID: USER-8463
+Amount: $2995.45
+Merchant: MERCH-194
+Country: FR
+Detected At: 2026-02-11T21:24:52.808867
+============================================================
+2026-02-11 21:24:52,809 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 16 transactions in the last minute
+Transaction ID: TXN-890887
+User ID: USER-8463
+Amount: $2995.45
+Merchant: MERCH-194
+Country: FR
+Detected At: 2026-02-11T21:24:52.808889
+============================================================
+2026-02-11 21:24:54,265 | INFO     | Processed transaction: ID=TXN-486492, Amount=$1966.73, User=USER-5903
+2026-02-11 21:24:54,266 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $1966.73 exceeds threshold of $1000.00
+Transaction ID: TXN-486492
+User ID: USER-5903
+Amount: $1966.73
+Merchant: MERCH-709
+Country: CA
+Detected At: 2026-02-11T21:24:54.265719
+============================================================
+2026-02-11 21:24:54,266 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 17 transactions in the last minute
+Transaction ID: TXN-486492
+User ID: USER-5903
+Amount: $1966.73
+Merchant: MERCH-709
+Country: CA
+Detected At: 2026-02-11T21:24:54.265754
+============================================================
+2026-02-11 21:24:55,026 | INFO     | Processed transaction: ID=TXN-682060, Amount=$2657.11, User=USER-2385
+2026-02-11 21:24:55,026 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $2657.11 exceeds threshold of $1000.00
+Transaction ID: TXN-682060
+User ID: USER-2385
+Amount: $2657.11
+Merchant: MERCH-145
+Country: JP
+Detected At: 2026-02-11T21:24:55.026502
+============================================================
+2026-02-11 21:24:55,027 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 18 transactions in the last minute
+Transaction ID: TXN-682060
+User ID: USER-2385
+Amount: $2657.11
+Merchant: MERCH-145
+Country: JP
+Detected At: 2026-02-11T21:24:55.026529
+============================================================
+2026-02-11 21:24:56,295 | INFO     | Processed transaction: ID=TXN-956209, Amount=$2572.45, User=USER-4438
+2026-02-11 21:24:56,295 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $2572.45 exceeds threshold of $1000.00
+Transaction ID: TXN-956209
+User ID: USER-4438
+Amount: $2572.45
+Merchant: MERCH-897
+Country: US
+Detected At: 2026-02-11T21:24:56.294929
+============================================================
+2026-02-11 21:24:56,295 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 19 transactions in the last minute
+Transaction ID: TXN-956209
+User ID: USER-4438
+Amount: $2572.45
+Merchant: MERCH-897
+Country: US
+Detected At: 2026-02-11T21:24:56.294955
+============================================================
+2026-02-11 21:24:58,278 | INFO     | Processed transaction: ID=TXN-857312, Amount=$1655.65, User=USER-8769
+2026-02-11 21:24:58,278 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $1655.65 exceeds threshold of $1000.00
+Transaction ID: TXN-857312
+User ID: USER-8769
+Amount: $1655.65
+Merchant: MERCH-317
+Country: FR
+Detected At: 2026-02-11T21:24:58.278095
+============================================================
+2026-02-11 21:24:58,278 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 20 transactions in the last minute
+Transaction ID: TXN-857312
+User ID: USER-8769
+Amount: $1655.65
+Merchant: MERCH-317
+Country: FR
+Detected At: 2026-02-11T21:24:58.278121
+============================================================
+2026-02-11 21:24:59,668 | INFO     | Processed transaction: ID=TXN-974727, Amount=$4152.48, User=USER-1368
+2026-02-11 21:24:59,669 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $4152.48 exceeds threshold of $1000.00
+Transaction ID: TXN-974727
+User ID: USER-1368
+Amount: $4152.48
+Merchant: MERCH-958
+Country: CA
+Detected At: 2026-02-11T21:24:59.668559
+============================================================
+2026-02-11 21:24:59,669 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 21 transactions in the last minute
+Transaction ID: TXN-974727
+User ID: USER-1368
+Amount: $4152.48
+Merchant: MERCH-958
+Country: CA
+Detected At: 2026-02-11T21:24:59.668593
+============================================================
+2026-02-11 21:25:01,199 | INFO     | Processed transaction: ID=TXN-730838, Amount=$749.23, User=USER-7019
+2026-02-11 21:25:01,199 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 22 transactions in the last minute
+Transaction ID: TXN-730838
+User ID: USER-7019
+Amount: $749.23
+Merchant: MERCH-141
+Country: US
+Detected At: 2026-02-11T21:25:01.199134
+============================================================
+2026-02-12 01:52:32,295 | INFO     | ============================================================
+2026-02-12 01:52:32,295 | INFO     | FRAUD DETECTION CONSUMER STARTING
+2026-02-12 01:52:32,295 | INFO     | ============================================================
+2026-02-12 01:52:32,295 | INFO     | Topic: ecommerce-transactions
+2026-02-12 01:52:32,295 | INFO     | Bootstrap Servers: ['localhost:9095']
+2026-02-12 01:52:32,295 | INFO     | Batch Interval: 30 seconds
+2026-02-12 01:52:32,295 | INFO     | Amount Threshold: $1000.0
+2026-02-12 01:52:32,295 | INFO     | ============================================================
+2026-02-12 01:52:32,295 | WARNING  | Kafka not available - running in simulation mode
+2026-02-12 01:52:32,295 | INFO     | Running in SIMULATION mode (generating sample transactions)
+2026-02-12 01:52:32,295 | INFO     | Processed transaction: ID=TXN-468982, Amount=$2440.45, User=USER-2118
+2026-02-12 01:52:32,295 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $2440.45 exceeds threshold of $1000.00
+Transaction ID: TXN-468982
+User ID: USER-2118
+Amount: $2440.45
+Merchant: MERCH-296
+Country: FR
+Detected At: 2026-02-12T01:52:32.295432
+============================================================
+2026-02-12 01:52:32,825 | INFO     | Processed transaction: ID=TXN-554103, Amount=$1758.04, User=USER-5728
+2026-02-12 01:52:32,826 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $1758.04 exceeds threshold of $1000.00
+Transaction ID: TXN-554103
+User ID: USER-5728
+Amount: $1758.04
+Merchant: MERCH-537
+Country: US
+Detected At: 2026-02-12T01:52:32.825603
+============================================================
+2026-02-12 01:52:34,299 | INFO     | Processed transaction: ID=TXN-331351, Amount=$947.95, User=USER-9918
+2026-02-12 01:52:35,465 | INFO     | Processed transaction: ID=TXN-754370, Amount=$1262.49, User=USER-2738
+2026-02-12 01:52:35,465 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟢 LOW
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $1262.49 exceeds threshold of $1000.00
+Transaction ID: TXN-754370
+User ID: USER-2738
+Amount: $1262.49
+Merchant: MERCH-103
+Country: FR
+Detected At: 2026-02-12T01:52:35.465417
+============================================================
+2026-02-12 01:52:37,109 | INFO     | Processed transaction: ID=TXN-994442, Amount=$3034.74, User=USER-3159
+2026-02-12 01:52:37,110 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $3034.74 exceeds threshold of $1000.00
+Transaction ID: TXN-994442
+User ID: USER-3159
+Amount: $3034.74
+Merchant: MERCH-405
+Country: FR
+Detected At: 2026-02-12T01:52:37.109587
+============================================================
+2026-02-12 01:52:39,083 | INFO     | Processed transaction: ID=TXN-403724, Amount=$2025.66, User=USER-2383
+2026-02-12 01:52:39,084 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $2025.66 exceeds threshold of $1000.00
+Transaction ID: TXN-403724
+User ID: USER-2383
+Amount: $2025.66
+Merchant: MERCH-645
+Country: JP
+Detected At: 2026-02-12T01:52:39.083615
+============================================================
+2026-02-12 01:52:39,084 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 6 transactions in the last minute
+Transaction ID: TXN-403724
+User ID: USER-2383
+Amount: $2025.66
+Merchant: MERCH-645
+Country: JP
+Detected At: 2026-02-12T01:52:39.083640
+============================================================
+2026-02-12 01:52:39,623 | INFO     | Processed transaction: ID=TXN-662224, Amount=$1613.05, User=USER-7768
+2026-02-12 01:52:39,624 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $1613.05 exceeds threshold of $1000.00
+Transaction ID: TXN-662224
+User ID: USER-7768
+Amount: $1613.05
+Merchant: MERCH-381
+Country: FR
+Detected At: 2026-02-12T01:52:39.623649
+============================================================
+2026-02-12 01:52:39,624 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 7 transactions in the last minute
+Transaction ID: TXN-662224
+User ID: USER-7768
+Amount: $1613.05
+Merchant: MERCH-381
+Country: FR
+Detected At: 2026-02-12T01:52:39.623673
+============================================================
+2026-02-12 01:52:40,880 | INFO     | Processed transaction: ID=TXN-898082, Amount=$824.78, User=USER-8268
+2026-02-12 01:52:40,880 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 8 transactions in the last minute
+Transaction ID: TXN-898082
+User ID: USER-8268
+Amount: $824.78
+Merchant: MERCH-568
+Country: US
+Detected At: 2026-02-12T01:52:40.880261
+============================================================
+2026-02-12 01:52:42,416 | INFO     | Processed transaction: ID=TXN-573406, Amount=$2515.54, User=USER-3858
+2026-02-12 01:52:42,416 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $2515.54 exceeds threshold of $1000.00
+Transaction ID: TXN-573406
+User ID: USER-3858
+Amount: $2515.54
+Merchant: MERCH-967
+Country: CA
+Detected At: 2026-02-12T01:52:42.416493
+============================================================
+2026-02-12 01:52:42,416 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 9 transactions in the last minute
+Transaction ID: TXN-573406
+User ID: USER-3858
+Amount: $2515.54
+Merchant: MERCH-967
+Country: CA
+Detected At: 2026-02-12T01:52:42.416504
+============================================================
+2026-02-12 01:52:43,655 | INFO     | Processed transaction: ID=TXN-808441, Amount=$4155.27, User=USER-3309
+2026-02-12 01:52:43,655 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $4155.27 exceeds threshold of $1000.00
+Transaction ID: TXN-808441
+User ID: USER-3309
+Amount: $4155.27
+Merchant: MERCH-964
+Country: CA
+Detected At: 2026-02-12T01:52:43.655058
+============================================================
+2026-02-12 01:52:43,655 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 10 transactions in the last minute
+Transaction ID: TXN-808441
+User ID: USER-3309
+Amount: $4155.27
+Merchant: MERCH-964
+Country: CA
+Detected At: 2026-02-12T01:52:43.655083
+============================================================
+2026-02-12 01:52:45,488 | INFO     | Processed transaction: ID=TXN-418570, Amount=$4556.77, User=USER-3747
+2026-02-12 01:52:45,488 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $4556.77 exceeds threshold of $1000.00
+Transaction ID: TXN-418570
+User ID: USER-3747
+Amount: $4556.77
+Merchant: MERCH-898
+Country: CA
+Detected At: 2026-02-12T01:52:45.488263
+============================================================
+2026-02-12 01:52:45,488 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 11 transactions in the last minute
+Transaction ID: TXN-418570
+User ID: USER-3747
+Amount: $4556.77
+Merchant: MERCH-898
+Country: CA
+Detected At: 2026-02-12T01:52:45.488286
+============================================================
+2026-02-12 01:52:46,347 | INFO     | Processed transaction: ID=TXN-727987, Amount=$266.51, User=USER-2353
+2026-02-12 01:52:46,347 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 12 transactions in the last minute
+Transaction ID: TXN-727987
+User ID: USER-2353
+Amount: $266.51
+Merchant: MERCH-654
+Country: UK
+Detected At: 2026-02-12T01:52:46.346954
+============================================================
+2026-02-12 01:52:47,923 | INFO     | Processed transaction: ID=TXN-426062, Amount=$2664.13, User=USER-9739
+2026-02-12 01:52:47,924 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $2664.13 exceeds threshold of $1000.00
+Transaction ID: TXN-426062
+User ID: USER-9739
+Amount: $2664.13
+Merchant: MERCH-524
+Country: CA
+Detected At: 2026-02-12T01:52:47.923816
+============================================================
+2026-02-12 01:52:47,925 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 13 transactions in the last minute
+Transaction ID: TXN-426062
+User ID: USER-9739
+Amount: $2664.13
+Merchant: MERCH-524
+Country: CA
+Detected At: 2026-02-12T01:52:47.923843
+============================================================
+2026-02-12 01:52:48,877 | INFO     | Processed transaction: ID=TXN-462557, Amount=$1194.22, User=USER-2273
+2026-02-12 01:52:48,877 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟢 LOW
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $1194.22 exceeds threshold of $1000.00
+Transaction ID: TXN-462557
+User ID: USER-2273
+Amount: $1194.22
+Merchant: MERCH-573
+Country: JP
+Detected At: 2026-02-12T01:52:48.877051
+============================================================
+2026-02-12 01:52:48,877 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 14 transactions in the last minute
+Transaction ID: TXN-462557
+User ID: USER-2273
+Amount: $1194.22
+Merchant: MERCH-573
+Country: JP
+Detected At: 2026-02-12T01:52:48.877062
+============================================================
+2026-02-12 01:52:50,142 | INFO     | Processed transaction: ID=TXN-328251, Amount=$857.29, User=USER-2513
+2026-02-12 01:52:50,142 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 15 transactions in the last minute
+Transaction ID: TXN-328251
+User ID: USER-2513
+Amount: $857.29
+Merchant: MERCH-176
+Country: US
+Detected At: 2026-02-12T01:52:50.142269
+============================================================
+2026-02-12 01:52:51,405 | INFO     | Processed transaction: ID=TXN-380003, Amount=$1135.21, User=USER-2497
+2026-02-12 01:52:51,405 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟢 LOW
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $1135.21 exceeds threshold of $1000.00
+Transaction ID: TXN-380003
+User ID: USER-2497
+Amount: $1135.21
+Merchant: MERCH-669
+Country: JP
+Detected At: 2026-02-12T01:52:51.405462
+============================================================
+2026-02-12 01:52:51,406 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 16 transactions in the last minute
+Transaction ID: TXN-380003
+User ID: USER-2497
+Amount: $1135.21
+Merchant: MERCH-669
+Country: JP
+Detected At: 2026-02-12T01:52:51.405493
+============================================================
+2026-02-12 01:52:52,287 | INFO     | Processed transaction: ID=TXN-709748, Amount=$584.33, User=USER-1928
+2026-02-12 01:52:52,287 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 17 transactions in the last minute
+Transaction ID: TXN-709748
+User ID: USER-1928
+Amount: $584.33
+Merchant: MERCH-366
+Country: FR
+Detected At: 2026-02-12T01:52:52.287469
+============================================================
+2026-02-12 01:52:53,993 | INFO     | Processed transaction: ID=TXN-747193, Amount=$3054.95, User=USER-4452
+2026-02-12 01:52:53,994 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $3054.95 exceeds threshold of $1000.00
+Transaction ID: TXN-747193
+User ID: USER-4452
+Amount: $3054.95
+Merchant: MERCH-802
+Country: UK
+Detected At: 2026-02-12T01:52:53.993602
+============================================================
+2026-02-12 01:52:53,994 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 18 transactions in the last minute
+Transaction ID: TXN-747193
+User ID: USER-4452
+Amount: $3054.95
+Merchant: MERCH-802
+Country: UK
+Detected At: 2026-02-12T01:52:53.993633
+============================================================
+2026-02-12 01:52:55,958 | INFO     | Processed transaction: ID=TXN-368987, Amount=$2981.81, User=USER-4657
+2026-02-12 01:52:55,959 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $2981.81 exceeds threshold of $1000.00
+Transaction ID: TXN-368987
+User ID: USER-4657
+Amount: $2981.81
+Merchant: MERCH-111
+Country: DE
+Detected At: 2026-02-12T01:52:55.958880
+============================================================
+2026-02-12 01:52:55,959 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 19 transactions in the last minute
+Transaction ID: TXN-368987
+User ID: USER-4657
+Amount: $2981.81
+Merchant: MERCH-111
+Country: DE
+Detected At: 2026-02-12T01:52:55.958916
+============================================================
+2026-02-12 01:52:57,854 | INFO     | Processed transaction: ID=TXN-655496, Amount=$333.70, User=USER-1392
+2026-02-12 01:52:57,854 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 20 transactions in the last minute
+Transaction ID: TXN-655496
+User ID: USER-1392
+Amount: $333.70
+Merchant: MERCH-387
+Country: DE
+Detected At: 2026-02-12T01:52:57.854204
+============================================================
+2026-02-12 01:52:59,555 | INFO     | Processed transaction: ID=TXN-543771, Amount=$636.33, User=USER-1902
+2026-02-12 01:52:59,556 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 21 transactions in the last minute
+Transaction ID: TXN-543771
+User ID: USER-1902
+Amount: $636.33
+Merchant: MERCH-734
+Country: DE
+Detected At: 2026-02-12T01:52:59.555876
+============================================================
+2026-02-12 01:53:00,662 | INFO     | Processed transaction: ID=TXN-574973, Amount=$3838.61, User=USER-2806
+2026-02-12 01:53:00,663 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $3838.61 exceeds threshold of $1000.00
+Transaction ID: TXN-574973
+User ID: USER-2806
+Amount: $3838.61
+Merchant: MERCH-923
+Country: JP
+Detected At: 2026-02-12T01:53:00.662726
+============================================================
+2026-02-12 01:53:00,663 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 22 transactions in the last minute
+Transaction ID: TXN-574973
+User ID: USER-2806
+Amount: $3838.61
+Merchant: MERCH-923
+Country: JP
+Detected At: 2026-02-12T01:53:00.662763
+============================================================
+2026-02-12 14:41:19,690 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-12 14:42:42,704 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-12 14:42:43,406 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-12 14:42:43,660 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-12 14:42:43,837 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-12 14:42:44,172 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-12 14:42:53,329 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-12 14:42:53,723 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-12 14:42:54,224 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-12 14:42:54,309 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-12 14:42:54,392 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-12 14:42:54,476 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-12 14:42:54,558 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-12 14:42:54,644 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-12 14:42:54,728 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-12 14:42:54,808 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-12 14:42:54,894 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-12 14:42:54,979 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-12 14:42:55,063 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-12 14:42:55,146 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-12 14:42:55,230 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-12 14:42:55,313 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-12 14:42:55,397 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-12 14:42:55,481 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-12 14:42:55,562 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-12 14:42:55,647 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-12 14:42:55,730 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-12 14:42:55,815 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-12 14:42:55,898 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-12 14:42:55,981 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-12 14:42:56,065 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-12 14:42:56,149 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-12 14:42:56,231 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-12 14:42:56,315 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-12 14:42:56,399 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-12 14:42:56,483 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-12 14:42:56,566 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-12 14:42:56,647 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-12 14:42:56,733 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-12 14:42:56,817 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-12 14:42:56,901 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-12 14:42:56,984 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-12 14:42:57,069 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-12 14:42:57,152 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-12 14:42:57,235 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-12 14:42:57,319 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-12 14:42:57,403 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-12 14:42:57,486 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-12 14:42:57,570 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-12 14:42:57,656 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-12 14:42:57,737 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-12 14:42:57,822 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-12 14:42:57,906 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-12 14:42:57,987 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-12 14:42:58,072 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-12 14:42:58,156 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-12 14:42:58,237 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-12 14:42:58,325 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-12 14:42:58,409 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-12 14:42:58,489 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-12 14:42:58,572 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-12 14:42:58,657 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-12 14:42:58,740 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-12 14:42:58,825 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-12 14:42:58,907 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-12 14:42:58,992 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-12 14:42:59,075 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-12 14:43:51,578 | INFO     | ============================================================
+2026-02-12 14:43:51,578 | INFO     | FRAUD DETECTION CONSUMER WITH ML STARTING
+2026-02-12 14:43:51,578 | INFO     | ============================================================
+2026-02-12 14:43:51,578 | INFO     | Topic: ecommerce-transactions
+2026-02-12 14:43:51,578 | INFO     | Bootstrap Servers: ['localhost:9095']
+2026-02-12 14:43:51,578 | INFO     | Batch Interval: 30 seconds
+2026-02-12 14:43:51,578 | INFO     | Amount Threshold: $1000.0
+2026-02-12 14:43:51,578 | INFO     | ML API: http://localhost:4500/predict
+2026-02-12 14:43:51,578 | INFO     | ML Fraud Threshold: 70%
+2026-02-12 14:43:51,578 | INFO     | ============================================================
+2026-02-12 14:43:51,585 | INFO     | ✅ ML API is online
+2026-02-12 14:43:51,585 | WARNING  | Kafka not available - running in simulation mode
+2026-02-12 14:43:51,585 | INFO     | Running in SIMULATION mode (generating sample transactions)
+2026-02-12 14:43:51,586 | ERROR    | ML API error: 400 - {"error":"Missing fields: ['transaction_amount', 'transaction_hour', 'days_since_last_transaction', 'merchant_risk_score', 'customer_age_months', 'num_transactions_24h', 'is_international']"}
+
+2026-02-12 14:43:51,587 | INFO     | Processed transaction: ID=TXN-359142, Amount=$1977.16, User=USER-4575
+2026-02-12 14:43:51,587 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $1977.16 exceeds threshold of $1000.00
+Transaction ID: TXN-359142
+User ID: USER-4575
+Amount: $1977.16
+Merchant: MERCH-848
+Country: CA
+Detected At: 2026-02-12T14:43:51.587004
+============================================================
+2026-02-12 14:43:53,375 | ERROR    | ML API error: 400 - {"error":"Missing fields: ['transaction_amount', 'transaction_hour', 'days_since_last_transaction', 'merchant_risk_score', 'customer_age_months', 'num_transactions_24h', 'is_international']"}
+
+2026-02-12 14:43:53,375 | INFO     | Processed transaction: ID=TXN-946672, Amount=$3257.11, User=USER-2151
+2026-02-12 14:43:53,376 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $3257.11 exceeds threshold of $1000.00
+Transaction ID: TXN-946672
+User ID: USER-2151
+Amount: $3257.11
+Merchant: MERCH-988
+Country: CA
+Detected At: 2026-02-12T14:43:53.375857
+============================================================
+2026-02-12 14:43:54,314 | ERROR    | ML API error: 400 - {"error":"Missing fields: ['transaction_amount', 'transaction_hour', 'days_since_last_transaction', 'merchant_risk_score', 'customer_age_months', 'num_transactions_24h', 'is_international']"}
+
+2026-02-12 14:43:54,314 | INFO     | Processed transaction: ID=TXN-696780, Amount=$3031.09, User=USER-3155
+2026-02-12 14:43:54,315 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $3031.09 exceeds threshold of $1000.00
+Transaction ID: TXN-696780
+User ID: USER-3155
+Amount: $3031.09
+Merchant: MERCH-134
+Country: US
+Detected At: 2026-02-12T14:43:54.314916
+============================================================
+2026-02-12 14:43:55,100 | ERROR    | ML API error: 400 - {"error":"Missing fields: ['transaction_amount', 'transaction_hour', 'days_since_last_transaction', 'merchant_risk_score', 'customer_age_months', 'num_transactions_24h', 'is_international']"}
+
+2026-02-12 14:43:55,101 | INFO     | Processed transaction: ID=TXN-822979, Amount=$2102.77, User=USER-5838
+2026-02-12 14:43:55,101 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $2102.77 exceeds threshold of $1000.00
+Transaction ID: TXN-822979
+User ID: USER-5838
+Amount: $2102.77
+Merchant: MERCH-920
+Country: UK
+Detected At: 2026-02-12T14:43:55.101330
+============================================================
+2026-02-12 14:43:55,769 | ERROR    | ML API error: 400 - {"error":"Missing fields: ['transaction_amount', 'transaction_hour', 'days_since_last_transaction', 'merchant_risk_score', 'customer_age_months', 'num_transactions_24h', 'is_international']"}
+
+2026-02-12 14:43:55,769 | INFO     | Processed transaction: ID=TXN-982911, Amount=$818.61, User=USER-3273
+2026-02-12 14:43:57,663 | ERROR    | ML API error: 400 - {"error":"Missing fields: ['transaction_amount', 'transaction_hour', 'days_since_last_transaction', 'merchant_risk_score', 'customer_age_months', 'num_transactions_24h', 'is_international']"}
+
+2026-02-12 14:43:57,663 | INFO     | Processed transaction: ID=TXN-258802, Amount=$3396.35, User=USER-2899
+2026-02-12 14:43:57,663 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $3396.35 exceeds threshold of $1000.00
+Transaction ID: TXN-258802
+User ID: USER-2899
+Amount: $3396.35
+Merchant: MERCH-879
+Country: FR
+Detected At: 2026-02-12T14:43:57.663440
+============================================================
+2026-02-12 14:43:57,663 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 6 transactions in the last minute
+Transaction ID: TXN-258802
+User ID: USER-2899
+Amount: $3396.35
+Merchant: MERCH-879
+Country: FR
+Detected At: 2026-02-12T14:43:57.663447
+============================================================
+2026-02-12 14:43:59,371 | ERROR    | ML API error: 400 - {"error":"Missing fields: ['transaction_amount', 'transaction_hour', 'days_since_last_transaction', 'merchant_risk_score', 'customer_age_months', 'num_transactions_24h', 'is_international']"}
+
+2026-02-12 14:43:59,371 | INFO     | Processed transaction: ID=TXN-924413, Amount=$4360.15, User=USER-2226
+2026-02-12 14:43:59,371 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $4360.15 exceeds threshold of $1000.00
+Transaction ID: TXN-924413
+User ID: USER-2226
+Amount: $4360.15
+Merchant: MERCH-330
+Country: US
+Detected At: 2026-02-12T14:43:59.371678
+============================================================
+2026-02-12 14:43:59,371 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 7 transactions in the last minute
+Transaction ID: TXN-924413
+User ID: USER-2226
+Amount: $4360.15
+Merchant: MERCH-330
+Country: US
+Detected At: 2026-02-12T14:43:59.371706
+============================================================
+2026-02-12 14:44:00,893 | ERROR    | ML API error: 400 - {"error":"Missing fields: ['transaction_amount', 'transaction_hour', 'days_since_last_transaction', 'merchant_risk_score', 'customer_age_months', 'num_transactions_24h', 'is_international']"}
+
+2026-02-12 14:44:00,894 | INFO     | Processed transaction: ID=TXN-523088, Amount=$163.58, User=USER-4907
+2026-02-12 14:44:00,894 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 8 transactions in the last minute
+Transaction ID: TXN-523088
+User ID: USER-4907
+Amount: $163.58
+Merchant: MERCH-858
+Country: CA
+Detected At: 2026-02-12T14:44:00.894020
+============================================================
+2026-02-12 14:44:02,532 | ERROR    | ML API error: 400 - {"error":"Missing fields: ['transaction_amount', 'transaction_hour', 'days_since_last_transaction', 'merchant_risk_score', 'customer_age_months', 'num_transactions_24h', 'is_international']"}
+
+2026-02-12 14:44:02,533 | INFO     | Processed transaction: ID=TXN-925993, Amount=$2476.14, User=USER-5683
+2026-02-12 14:44:02,533 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $2476.14 exceeds threshold of $1000.00
+Transaction ID: TXN-925993
+User ID: USER-5683
+Amount: $2476.14
+Merchant: MERCH-747
+Country: CA
+Detected At: 2026-02-12T14:44:02.533228
+============================================================
+2026-02-12 14:44:02,533 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 9 transactions in the last minute
+Transaction ID: TXN-925993
+User ID: USER-5683
+Amount: $2476.14
+Merchant: MERCH-747
+Country: CA
+Detected At: 2026-02-12T14:44:02.533252
+============================================================
+2026-02-12 14:44:04,245 | ERROR    | ML API error: 400 - {"error":"Missing fields: ['transaction_amount', 'transaction_hour', 'days_since_last_transaction', 'merchant_risk_score', 'customer_age_months', 'num_transactions_24h', 'is_international']"}
+
+2026-02-12 14:44:04,245 | INFO     | Processed transaction: ID=TXN-641275, Amount=$4841.63, User=USER-3820
+2026-02-12 14:44:04,246 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $4841.63 exceeds threshold of $1000.00
+Transaction ID: TXN-641275
+User ID: USER-3820
+Amount: $4841.63
+Merchant: MERCH-432
+Country: JP
+Detected At: 2026-02-12T14:44:04.245947
+============================================================
+2026-02-12 14:44:04,246 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 10 transactions in the last minute
+Transaction ID: TXN-641275
+User ID: USER-3820
+Amount: $4841.63
+Merchant: MERCH-432
+Country: JP
+Detected At: 2026-02-12T14:44:04.245965
+============================================================
+2026-02-12 14:44:05,937 | ERROR    | ML API error: 400 - {"error":"Missing fields: ['transaction_amount', 'transaction_hour', 'days_since_last_transaction', 'merchant_risk_score', 'customer_age_months', 'num_transactions_24h', 'is_international']"}
+
+2026-02-12 14:44:05,937 | INFO     | Processed transaction: ID=TXN-183962, Amount=$2058.03, User=USER-7445
+2026-02-12 14:44:05,937 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $2058.03 exceeds threshold of $1000.00
+Transaction ID: TXN-183962
+User ID: USER-7445
+Amount: $2058.03
+Merchant: MERCH-955
+Country: US
+Detected At: 2026-02-12T14:44:05.937491
+============================================================
+2026-02-12 14:44:05,937 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 11 transactions in the last minute
+Transaction ID: TXN-183962
+User ID: USER-7445
+Amount: $2058.03
+Merchant: MERCH-955
+Country: US
+Detected At: 2026-02-12T14:44:05.937503
+============================================================
+2026-02-12 14:44:07,303 | ERROR    | ML API error: 400 - {"error":"Missing fields: ['transaction_amount', 'transaction_hour', 'days_since_last_transaction', 'merchant_risk_score', 'customer_age_months', 'num_transactions_24h', 'is_international']"}
+
+2026-02-12 14:44:07,304 | INFO     | Processed transaction: ID=TXN-546866, Amount=$3831.63, User=USER-5322
+2026-02-12 14:44:07,304 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $3831.63 exceeds threshold of $1000.00
+Transaction ID: TXN-546866
+User ID: USER-5322
+Amount: $3831.63
+Merchant: MERCH-425
+Country: CA
+Detected At: 2026-02-12T14:44:07.304043
+============================================================
+2026-02-12 14:44:07,304 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 12 transactions in the last minute
+Transaction ID: TXN-546866
+User ID: USER-5322
+Amount: $3831.63
+Merchant: MERCH-425
+Country: CA
+Detected At: 2026-02-12T14:44:07.304068
+============================================================
+2026-02-12 14:44:08,089 | ERROR    | ML API error: 400 - {"error":"Missing fields: ['transaction_amount', 'transaction_hour', 'days_since_last_transaction', 'merchant_risk_score', 'customer_age_months', 'num_transactions_24h', 'is_international']"}
+
+2026-02-12 14:44:08,089 | INFO     | Processed transaction: ID=TXN-912478, Amount=$3338.53, User=USER-3012
+2026-02-12 14:44:08,090 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $3338.53 exceeds threshold of $1000.00
+Transaction ID: TXN-912478
+User ID: USER-3012
+Amount: $3338.53
+Merchant: MERCH-296
+Country: FR
+Detected At: 2026-02-12T14:44:08.089875
+============================================================
+2026-02-12 14:44:08,090 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 13 transactions in the last minute
+Transaction ID: TXN-912478
+User ID: USER-3012
+Amount: $3338.53
+Merchant: MERCH-296
+Country: FR
+Detected At: 2026-02-12T14:44:08.089900
+============================================================
+2026-02-12 14:44:09,387 | ERROR    | ML API error: 400 - {"error":"Missing fields: ['transaction_amount', 'transaction_hour', 'days_since_last_transaction', 'merchant_risk_score', 'customer_age_months', 'num_transactions_24h', 'is_international']"}
+
+2026-02-12 14:44:09,387 | INFO     | Processed transaction: ID=TXN-102450, Amount=$2091.76, User=USER-3212
+2026-02-12 14:44:09,387 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $2091.76 exceeds threshold of $1000.00
+Transaction ID: TXN-102450
+User ID: USER-3212
+Amount: $2091.76
+Merchant: MERCH-452
+Country: DE
+Detected At: 2026-02-12T14:44:09.387842
+============================================================
+2026-02-12 14:44:09,387 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 14 transactions in the last minute
+Transaction ID: TXN-102450
+User ID: USER-3212
+Amount: $2091.76
+Merchant: MERCH-452
+Country: DE
+Detected At: 2026-02-12T14:44:09.387850
+============================================================
+2026-02-12 14:44:10,630 | ERROR    | ML API error: 400 - {"error":"Missing fields: ['transaction_amount', 'transaction_hour', 'days_since_last_transaction', 'merchant_risk_score', 'customer_age_months', 'num_transactions_24h', 'is_international']"}
+
+2026-02-12 14:44:10,630 | INFO     | Processed transaction: ID=TXN-955136, Amount=$803.23, User=USER-5933
+2026-02-12 14:44:10,630 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 15 transactions in the last minute
+Transaction ID: TXN-955136
+User ID: USER-5933
+Amount: $803.23
+Merchant: MERCH-257
+Country: JP
+Detected At: 2026-02-12T14:44:10.630365
+============================================================
+2026-02-12 14:44:12,214 | ERROR    | ML API error: 400 - {"error":"Missing fields: ['transaction_amount', 'transaction_hour', 'days_since_last_transaction', 'merchant_risk_score', 'customer_age_months', 'num_transactions_24h', 'is_international']"}
+
+2026-02-12 14:44:12,214 | INFO     | Processed transaction: ID=TXN-395800, Amount=$2439.93, User=USER-5054
+2026-02-12 14:44:12,214 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $2439.93 exceeds threshold of $1000.00
+Transaction ID: TXN-395800
+User ID: USER-5054
+Amount: $2439.93
+Merchant: MERCH-447
+Country: CA
+Detected At: 2026-02-12T14:44:12.214477
+============================================================
+2026-02-12 14:44:12,214 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 16 transactions in the last minute
+Transaction ID: TXN-395800
+User ID: USER-5054
+Amount: $2439.93
+Merchant: MERCH-447
+Country: CA
+Detected At: 2026-02-12T14:44:12.214503
+============================================================
+2026-02-12 14:44:13,198 | ERROR    | ML API error: 400 - {"error":"Missing fields: ['transaction_amount', 'transaction_hour', 'days_since_last_transaction', 'merchant_risk_score', 'customer_age_months', 'num_transactions_24h', 'is_international']"}
+
+2026-02-12 14:44:13,198 | INFO     | Processed transaction: ID=TXN-432265, Amount=$4612.05, User=USER-8234
+2026-02-12 14:44:13,198 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $4612.05 exceeds threshold of $1000.00
+Transaction ID: TXN-432265
+User ID: USER-8234
+Amount: $4612.05
+Merchant: MERCH-878
+Country: JP
+Detected At: 2026-02-12T14:44:13.198591
+============================================================
+2026-02-12 14:44:13,198 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 17 transactions in the last minute
+Transaction ID: TXN-432265
+User ID: USER-8234
+Amount: $4612.05
+Merchant: MERCH-878
+Country: JP
+Detected At: 2026-02-12T14:44:13.198601
+============================================================
+2026-02-12 14:44:14,001 | ERROR    | ML API error: 400 - {"error":"Missing fields: ['transaction_amount', 'transaction_hour', 'days_since_last_transaction', 'merchant_risk_score', 'customer_age_months', 'num_transactions_24h', 'is_international']"}
+
+2026-02-12 14:44:14,001 | INFO     | Processed transaction: ID=TXN-363743, Amount=$410.20, User=USER-8084
+2026-02-12 14:44:14,001 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 18 transactions in the last minute
+Transaction ID: TXN-363743
+User ID: USER-8084
+Amount: $410.20
+Merchant: MERCH-938
+Country: UK
+Detected At: 2026-02-12T14:44:14.001589
+============================================================
+2026-02-12 14:44:15,810 | ERROR    | ML API error: 400 - {"error":"Missing fields: ['transaction_amount', 'transaction_hour', 'days_since_last_transaction', 'merchant_risk_score', 'customer_age_months', 'num_transactions_24h', 'is_international']"}
+
+2026-02-12 14:44:15,810 | INFO     | Processed transaction: ID=TXN-293127, Amount=$3111.46, User=USER-8619
+2026-02-12 14:44:15,811 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $3111.46 exceeds threshold of $1000.00
+Transaction ID: TXN-293127
+User ID: USER-8619
+Amount: $3111.46
+Merchant: MERCH-771
+Country: US
+Detected At: 2026-02-12T14:44:15.810945
+============================================================
+2026-02-12 14:44:15,811 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 19 transactions in the last minute
+Transaction ID: TXN-293127
+User ID: USER-8619
+Amount: $3111.46
+Merchant: MERCH-771
+Country: US
+Detected At: 2026-02-12T14:44:15.810963
+============================================================
+2026-02-12 14:44:17,279 | ERROR    | ML API error: 400 - {"error":"Missing fields: ['transaction_amount', 'transaction_hour', 'days_since_last_transaction', 'merchant_risk_score', 'customer_age_months', 'num_transactions_24h', 'is_international']"}
+
+2026-02-12 14:44:17,279 | INFO     | Processed transaction: ID=TXN-417418, Amount=$4569.54, User=USER-9664
+2026-02-12 14:44:17,279 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $4569.54 exceeds threshold of $1000.00
+Transaction ID: TXN-417418
+User ID: USER-9664
+Amount: $4569.54
+Merchant: MERCH-919
+Country: US
+Detected At: 2026-02-12T14:44:17.279646
+============================================================
+2026-02-12 14:44:17,279 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 20 transactions in the last minute
+Transaction ID: TXN-417418
+User ID: USER-9664
+Amount: $4569.54
+Merchant: MERCH-919
+Country: US
+Detected At: 2026-02-12T14:44:17.279656
+============================================================
+2026-02-12 14:44:19,049 | ERROR    | ML API error: 400 - {"error":"Missing fields: ['transaction_amount', 'transaction_hour', 'days_since_last_transaction', 'merchant_risk_score', 'customer_age_months', 'num_transactions_24h', 'is_international']"}
+
+2026-02-12 14:44:19,049 | INFO     | Processed transaction: ID=TXN-670527, Amount=$2218.13, User=USER-7748
+2026-02-12 14:44:19,050 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $2218.13 exceeds threshold of $1000.00
+Transaction ID: TXN-670527
+User ID: USER-7748
+Amount: $2218.13
+Merchant: MERCH-138
+Country: UK
+Detected At: 2026-02-12T14:44:19.049797
+============================================================
+2026-02-12 14:44:19,050 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 21 transactions in the last minute
+Transaction ID: TXN-670527
+User ID: USER-7748
+Amount: $2218.13
+Merchant: MERCH-138
+Country: UK
+Detected At: 2026-02-12T14:44:19.049829
+============================================================
+2026-02-12 14:44:20,462 | ERROR    | ML API error: 400 - {"error":"Missing fields: ['transaction_amount', 'transaction_hour', 'days_since_last_transaction', 'merchant_risk_score', 'customer_age_months', 'num_transactions_24h', 'is_international']"}
+
+2026-02-12 14:44:20,462 | INFO     | Processed transaction: ID=TXN-886115, Amount=$2017.35, User=USER-5067
+2026-02-12 14:44:20,462 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $2017.35 exceeds threshold of $1000.00
+Transaction ID: TXN-886115
+User ID: USER-5067
+Amount: $2017.35
+Merchant: MERCH-228
+Country: JP
+Detected At: 2026-02-12T14:44:20.462680
+============================================================
+2026-02-12 14:44:20,462 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 22 transactions in the last minute
+Transaction ID: TXN-886115
+User ID: USER-5067
+Amount: $2017.35
+Merchant: MERCH-228
+Country: JP
+Detected At: 2026-02-12T14:44:20.462692
+============================================================
+2026-02-12 14:44:21,309 | ERROR    | ML API error: 400 - {"error":"Missing fields: ['transaction_amount', 'transaction_hour', 'days_since_last_transaction', 'merchant_risk_score', 'customer_age_months', 'num_transactions_24h', 'is_international']"}
+
+2026-02-12 14:44:21,310 | INFO     | Processed transaction: ID=TXN-154764, Amount=$4226.25, User=USER-4024
+2026-02-12 14:44:21,310 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $4226.25 exceeds threshold of $1000.00
+Transaction ID: TXN-154764
+User ID: USER-4024
+Amount: $4226.25
+Merchant: MERCH-141
+Country: CA
+Detected At: 2026-02-12T14:44:21.310044
+============================================================
+2026-02-12 14:44:21,310 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 23 transactions in the last minute
+Transaction ID: TXN-154764
+User ID: USER-4024
+Amount: $4226.25
+Merchant: MERCH-141
+Country: CA
+Detected At: 2026-02-12T14:44:21.310065
+============================================================
+2026-02-12 14:44:23,271 | ERROR    | ML API error: 400 - {"error":"Missing fields: ['transaction_amount', 'transaction_hour', 'days_since_last_transaction', 'merchant_risk_score', 'customer_age_months', 'num_transactions_24h', 'is_international']"}
+
+2026-02-12 14:48:06,510 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-12 14:49:26,849 | INFO     | ============================================================
+2026-02-12 14:49:26,849 | INFO     | FRAUD DETECTION CONSUMER STARTING
+2026-02-12 14:49:26,849 | INFO     | ============================================================
+2026-02-12 14:49:26,849 | INFO     | Topic: ecommerce-transactions
+2026-02-12 14:49:26,849 | INFO     | Bootstrap Servers: ['localhost:9095']
+2026-02-12 14:49:26,849 | INFO     | Batch Interval: 30 seconds
+2026-02-12 14:49:26,849 | INFO     | Amount Threshold: $1000.0
+2026-02-12 14:49:26,849 | INFO     | ============================================================
+2026-02-12 14:49:26,849 | WARNING  | Kafka not available - running in simulation mode
+2026-02-12 14:49:26,849 | INFO     | Running in SIMULATION mode (generating sample transactions)
+2026-02-12 14:49:26,849 | INFO     | Processed transaction: ID=TXN-385640, Amount=$3102.30, User=USER-4429
+2026-02-12 14:49:26,849 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $3102.30 exceeds threshold of $1000.00
+Transaction ID: TXN-385640
+User ID: USER-4429
+Amount: $3102.30
+Merchant: MERCH-415
+Country: FR
+Detected At: 2026-02-12T14:49:26.849621
+============================================================
+2026-02-12 14:49:27,844 | INFO     | Processed transaction: ID=TXN-684153, Amount=$4762.69, User=USER-9302
+2026-02-12 14:49:27,844 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $4762.69 exceeds threshold of $1000.00
+Transaction ID: TXN-684153
+User ID: USER-9302
+Amount: $4762.69
+Merchant: MERCH-230
+Country: DE
+Detected At: 2026-02-12T14:49:27.843990
+============================================================
+2026-02-12 14:49:28,984 | INFO     | Processed transaction: ID=TXN-235784, Amount=$2446.41, User=USER-2065
+2026-02-12 14:49:28,985 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $2446.41 exceeds threshold of $1000.00
+Transaction ID: TXN-235784
+User ID: USER-2065
+Amount: $2446.41
+Merchant: MERCH-866
+Country: CA
+Detected At: 2026-02-12T14:49:28.984686
+============================================================
+2026-02-12 14:49:29,643 | INFO     | Processed transaction: ID=TXN-348741, Amount=$4053.56, User=USER-9171
+2026-02-12 14:49:29,643 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $4053.56 exceeds threshold of $1000.00
+Transaction ID: TXN-348741
+User ID: USER-9171
+Amount: $4053.56
+Merchant: MERCH-653
+Country: UK
+Detected At: 2026-02-12T14:49:29.643496
+============================================================
+2026-02-12 14:49:31,234 | INFO     | Processed transaction: ID=TXN-213181, Amount=$733.08, User=USER-9855
+2026-02-12 14:49:32,676 | INFO     | Processed transaction: ID=TXN-162567, Amount=$4620.25, User=USER-8093
+2026-02-12 14:49:32,676 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $4620.25 exceeds threshold of $1000.00
+Transaction ID: TXN-162567
+User ID: USER-8093
+Amount: $4620.25
+Merchant: MERCH-983
+Country: FR
+Detected At: 2026-02-12T14:49:32.676283
+============================================================
+2026-02-12 14:49:32,676 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 6 transactions in the last minute
+Transaction ID: TXN-162567
+User ID: USER-8093
+Amount: $4620.25
+Merchant: MERCH-983
+Country: FR
+Detected At: 2026-02-12T14:49:32.676306
+============================================================
+2026-02-12 14:49:33,569 | INFO     | Processed transaction: ID=TXN-393124, Amount=$554.37, User=USER-3079
+2026-02-12 14:49:33,569 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 7 transactions in the last minute
+Transaction ID: TXN-393124
+User ID: USER-3079
+Amount: $554.37
+Merchant: MERCH-517
+Country: CA
+Detected At: 2026-02-12T14:49:33.569047
+============================================================
+2026-02-12 14:49:35,029 | INFO     | Processed transaction: ID=TXN-983997, Amount=$2294.83, User=USER-5635
+2026-02-12 14:49:35,029 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $2294.83 exceeds threshold of $1000.00
+Transaction ID: TXN-983997
+User ID: USER-5635
+Amount: $2294.83
+Merchant: MERCH-900
+Country: UK
+Detected At: 2026-02-12T14:49:35.029005
+============================================================
+2026-02-12 14:49:35,029 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 8 transactions in the last minute
+Transaction ID: TXN-983997
+User ID: USER-5635
+Amount: $2294.83
+Merchant: MERCH-900
+Country: UK
+Detected At: 2026-02-12T14:49:35.029026
+============================================================
+2026-02-12 14:49:35,670 | INFO     | Processed transaction: ID=TXN-526310, Amount=$4253.75, User=USER-8076
+2026-02-12 14:49:35,670 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $4253.75 exceeds threshold of $1000.00
+Transaction ID: TXN-526310
+User ID: USER-8076
+Amount: $4253.75
+Merchant: MERCH-117
+Country: CA
+Detected At: 2026-02-12T14:49:35.670122
+============================================================
+2026-02-12 14:49:35,670 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 9 transactions in the last minute
+Transaction ID: TXN-526310
+User ID: USER-8076
+Amount: $4253.75
+Merchant: MERCH-117
+Country: CA
+Detected At: 2026-02-12T14:49:35.670148
+============================================================
+2026-02-12 14:49:37,594 | INFO     | Processed transaction: ID=TXN-887842, Amount=$3257.91, User=USER-8534
+2026-02-12 14:49:37,595 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $3257.91 exceeds threshold of $1000.00
+Transaction ID: TXN-887842
+User ID: USER-8534
+Amount: $3257.91
+Merchant: MERCH-212
+Country: DE
+Detected At: 2026-02-12T14:49:37.594915
+============================================================
+2026-02-12 14:49:37,595 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 10 transactions in the last minute
+Transaction ID: TXN-887842
+User ID: USER-8534
+Amount: $3257.91
+Merchant: MERCH-212
+Country: DE
+Detected At: 2026-02-12T14:49:37.594933
+============================================================
+2026-02-12 14:49:38,212 | INFO     | Processed transaction: ID=TXN-963590, Amount=$3684.30, User=USER-8498
+2026-02-12 14:49:38,212 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $3684.30 exceeds threshold of $1000.00
+Transaction ID: TXN-963590
+User ID: USER-8498
+Amount: $3684.30
+Merchant: MERCH-393
+Country: JP
+Detected At: 2026-02-12T14:49:38.212601
+============================================================
+2026-02-12 14:49:38,212 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 11 transactions in the last minute
+Transaction ID: TXN-963590
+User ID: USER-8498
+Amount: $3684.30
+Merchant: MERCH-393
+Country: JP
+Detected At: 2026-02-12T14:49:38.212612
+============================================================
+2026-02-12 14:49:40,105 | INFO     | Processed transaction: ID=TXN-863899, Amount=$89.66, User=USER-5328
+2026-02-12 14:49:40,105 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 12 transactions in the last minute
+Transaction ID: TXN-863899
+User ID: USER-5328
+Amount: $89.66
+Merchant: MERCH-635
+Country: FR
+Detected At: 2026-02-12T14:49:40.104969
+============================================================
+2026-02-12 14:49:41,754 | INFO     | Processed transaction: ID=TXN-512740, Amount=$680.57, User=USER-8910
+2026-02-12 14:49:41,755 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 13 transactions in the last minute
+Transaction ID: TXN-512740
+User ID: USER-8910
+Amount: $680.57
+Merchant: MERCH-229
+Country: UK
+Detected At: 2026-02-12T14:49:41.754791
+============================================================
+2026-02-12 14:49:43,709 | INFO     | Processed transaction: ID=TXN-396532, Amount=$1410.30, User=USER-3723
+2026-02-12 14:49:43,710 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟢 LOW
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $1410.30 exceeds threshold of $1000.00
+Transaction ID: TXN-396532
+User ID: USER-3723
+Amount: $1410.30
+Merchant: MERCH-179
+Country: CA
+Detected At: 2026-02-12T14:49:43.709896
+============================================================
+2026-02-12 14:49:43,710 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 14 transactions in the last minute
+Transaction ID: TXN-396532
+User ID: USER-3723
+Amount: $1410.30
+Merchant: MERCH-179
+Country: CA
+Detected At: 2026-02-12T14:49:43.709913
+============================================================
+2026-02-12 14:49:45,448 | INFO     | Processed transaction: ID=TXN-540934, Amount=$2655.38, User=USER-8314
+2026-02-12 14:49:45,448 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $2655.38 exceeds threshold of $1000.00
+Transaction ID: TXN-540934
+User ID: USER-8314
+Amount: $2655.38
+Merchant: MERCH-546
+Country: UK
+Detected At: 2026-02-12T14:49:45.448440
+============================================================
+2026-02-12 14:49:45,448 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 15 transactions in the last minute
+Transaction ID: TXN-540934
+User ID: USER-8314
+Amount: $2655.38
+Merchant: MERCH-546
+Country: UK
+Detected At: 2026-02-12T14:49:45.448449
+============================================================
+2026-02-12 14:49:46,645 | INFO     | Processed transaction: ID=TXN-584584, Amount=$1849.65, User=USER-8566
+2026-02-12 14:49:46,645 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $1849.65 exceeds threshold of $1000.00
+Transaction ID: TXN-584584
+User ID: USER-8566
+Amount: $1849.65
+Merchant: MERCH-989
+Country: FR
+Detected At: 2026-02-12T14:49:46.645612
+============================================================
+2026-02-12 14:49:46,645 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 16 transactions in the last minute
+Transaction ID: TXN-584584
+User ID: USER-8566
+Amount: $1849.65
+Merchant: MERCH-989
+Country: FR
+Detected At: 2026-02-12T14:49:46.645618
+============================================================
+2026-02-12 14:49:47,410 | INFO     | Processed transaction: ID=TXN-906111, Amount=$708.07, User=USER-9007
+2026-02-12 14:49:47,411 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 17 transactions in the last minute
+Transaction ID: TXN-906111
+User ID: USER-9007
+Amount: $708.07
+Merchant: MERCH-658
+Country: US
+Detected At: 2026-02-12T14:49:47.410836
+============================================================
+2026-02-12 14:49:49,027 | INFO     | Processed transaction: ID=TXN-536127, Amount=$2419.64, User=USER-3794
+2026-02-12 14:49:49,028 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $2419.64 exceeds threshold of $1000.00
+Transaction ID: TXN-536127
+User ID: USER-3794
+Amount: $2419.64
+Merchant: MERCH-838
+Country: UK
+Detected At: 2026-02-12T14:49:49.027607
+============================================================
+2026-02-12 14:49:49,028 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 18 transactions in the last minute
+Transaction ID: TXN-536127
+User ID: USER-3794
+Amount: $2419.64
+Merchant: MERCH-838
+Country: UK
+Detected At: 2026-02-12T14:49:49.027632
+============================================================
+2026-02-12 14:49:50,692 | INFO     | Processed transaction: ID=TXN-166606, Amount=$4240.97, User=USER-6434
+2026-02-12 14:49:50,692 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $4240.97 exceeds threshold of $1000.00
+Transaction ID: TXN-166606
+User ID: USER-6434
+Amount: $4240.97
+Merchant: MERCH-880
+Country: DE
+Detected At: 2026-02-12T14:49:50.691926
+============================================================
+2026-02-12 14:49:50,692 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 19 transactions in the last minute
+Transaction ID: TXN-166606
+User ID: USER-6434
+Amount: $4240.97
+Merchant: MERCH-880
+Country: DE
+Detected At: 2026-02-12T14:49:50.691960
+============================================================
+2026-02-12 14:49:51,972 | INFO     | Processed transaction: ID=TXN-592761, Amount=$2669.04, User=USER-1524
+2026-02-12 14:49:51,972 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $2669.04 exceeds threshold of $1000.00
+Transaction ID: TXN-592761
+User ID: USER-1524
+Amount: $2669.04
+Merchant: MERCH-224
+Country: JP
+Detected At: 2026-02-12T14:49:51.972337
+============================================================
+2026-02-12 14:49:51,972 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 20 transactions in the last minute
+Transaction ID: TXN-592761
+User ID: USER-1524
+Amount: $2669.04
+Merchant: MERCH-224
+Country: JP
+Detected At: 2026-02-12T14:49:51.972353
+============================================================
+2026-02-12 14:49:52,743 | INFO     | Processed transaction: ID=TXN-547486, Amount=$748.39, User=USER-1978
+2026-02-12 14:49:52,743 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 21 transactions in the last minute
+Transaction ID: TXN-547486
+User ID: USER-1978
+Amount: $748.39
+Merchant: MERCH-335
+Country: US
+Detected At: 2026-02-12T14:49:52.743109
+============================================================
+2026-02-12 14:49:53,342 | INFO     | Processed transaction: ID=TXN-311696, Amount=$4008.17, User=USER-9141
+2026-02-12 14:49:53,342 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $4008.17 exceeds threshold of $1000.00
+Transaction ID: TXN-311696
+User ID: USER-9141
+Amount: $4008.17
+Merchant: MERCH-705
+Country: UK
+Detected At: 2026-02-12T14:49:53.342057
+============================================================
+2026-02-12 14:49:53,342 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 22 transactions in the last minute
+Transaction ID: TXN-311696
+User ID: USER-9141
+Amount: $4008.17
+Merchant: MERCH-705
+Country: UK
+Detected At: 2026-02-12T14:49:53.342123
+============================================================
+2026-02-12 14:49:54,281 | INFO     | Processed transaction: ID=TXN-872912, Amount=$440.47, User=USER-5267
+2026-02-12 14:49:54,281 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 23 transactions in the last minute
+Transaction ID: TXN-872912
+User ID: USER-5267
+Amount: $440.47
+Merchant: MERCH-921
+Country: JP
+Detected At: 2026-02-12T14:49:54.280964
+============================================================
+2026-02-12 14:49:55,562 | INFO     | Processed transaction: ID=TXN-195441, Amount=$4921.96, User=USER-5053
+2026-02-12 14:49:55,562 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $4921.96 exceeds threshold of $1000.00
+Transaction ID: TXN-195441
+User ID: USER-5053
+Amount: $4921.96
+Merchant: MERCH-267
+Country: JP
+Detected At: 2026-02-12T14:49:55.562331
+============================================================
+2026-02-12 14:49:55,562 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 24 transactions in the last minute
+Transaction ID: TXN-195441
+User ID: USER-5053
+Amount: $4921.96
+Merchant: MERCH-267
+Country: JP
+Detected At: 2026-02-12T14:49:55.562340
+============================================================
+2026-02-12 14:49:56,126 | INFO     | Processed transaction: ID=TXN-134058, Amount=$539.80, User=USER-8804
+2026-02-12 14:49:56,126 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 25 transactions in the last minute
+Transaction ID: TXN-134058
+User ID: USER-8804
+Amount: $539.80
+Merchant: MERCH-911
+Country: US
+Detected At: 2026-02-12T14:49:56.126475
+============================================================
+2026-02-12 20:19:27,248 | INFO     | ============================================================
+2026-02-12 20:19:27,248 | INFO     | FRAUD DETECTION CONSUMER STARTING
+2026-02-12 20:19:27,248 | INFO     | ============================================================
+2026-02-12 20:19:27,248 | INFO     | Topic: ecommerce-transactions
+2026-02-12 20:19:27,248 | INFO     | Bootstrap Servers: ['localhost:9095']
+2026-02-12 20:19:27,249 | INFO     | Batch Interval: 30 seconds
+2026-02-12 20:19:27,249 | INFO     | Amount Threshold: $1000.0
+2026-02-12 20:19:27,249 | INFO     | ============================================================
+2026-02-12 20:19:27,249 | WARNING  | Kafka not available - running in simulation mode
+2026-02-12 20:19:27,249 | INFO     | Running in SIMULATION mode (generating sample transactions)
+2026-02-12 20:19:27,249 | INFO     | Processed transaction: ID=TXN-620075, Amount=$1040.35, User=USER-9919
+2026-02-12 20:19:27,249 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟢 LOW
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $1040.35 exceeds threshold of $1000.00
+Transaction ID: TXN-620075
+User ID: USER-9919
+Amount: $1040.35
+Merchant: MERCH-568
+Country: FR
+Detected At: 2026-02-12T20:19:27.249107
+============================================================
+2026-02-12 20:19:28,710 | INFO     | Processed transaction: ID=TXN-516499, Amount=$903.01, User=USER-6344
+2026-02-12 20:19:30,176 | INFO     | Processed transaction: ID=TXN-982801, Amount=$3671.77, User=USER-7685
+2026-02-12 20:19:30,176 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $3671.77 exceeds threshold of $1000.00
+Transaction ID: TXN-982801
+User ID: USER-7685
+Amount: $3671.77
+Merchant: MERCH-802
+Country: DE
+Detected At: 2026-02-12T20:19:30.176492
+============================================================
+2026-02-12 20:19:31,893 | INFO     | Processed transaction: ID=TXN-495277, Amount=$333.06, User=USER-4572
+2026-02-12 20:19:33,668 | INFO     | Processed transaction: ID=TXN-846330, Amount=$3489.93, User=USER-9985
+2026-02-12 20:19:33,668 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $3489.93 exceeds threshold of $1000.00
+Transaction ID: TXN-846330
+User ID: USER-9985
+Amount: $3489.93
+Merchant: MERCH-662
+Country: DE
+Detected At: 2026-02-12T20:19:33.668310
+============================================================
+2026-02-12 20:19:35,552 | INFO     | Processed transaction: ID=TXN-971334, Amount=$1506.75, User=USER-7873
+2026-02-12 20:19:35,552 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $1506.75 exceeds threshold of $1000.00
+Transaction ID: TXN-971334
+User ID: USER-7873
+Amount: $1506.75
+Merchant: MERCH-889
+Country: DE
+Detected At: 2026-02-12T20:19:35.552531
+============================================================
+2026-02-12 20:19:35,553 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 6 transactions in the last minute
+Transaction ID: TXN-971334
+User ID: USER-7873
+Amount: $1506.75
+Merchant: MERCH-889
+Country: DE
+Detected At: 2026-02-12T20:19:35.552541
+============================================================
+2026-02-12 20:19:36,299 | INFO     | Processed transaction: ID=TXN-160859, Amount=$3921.14, User=USER-7348
+2026-02-12 20:19:36,299 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $3921.14 exceeds threshold of $1000.00
+Transaction ID: TXN-160859
+User ID: USER-7348
+Amount: $3921.14
+Merchant: MERCH-241
+Country: CA
+Detected At: 2026-02-12T20:19:36.299552
+============================================================
+2026-02-12 20:19:36,299 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 7 transactions in the last minute
+Transaction ID: TXN-160859
+User ID: USER-7348
+Amount: $3921.14
+Merchant: MERCH-241
+Country: CA
+Detected At: 2026-02-12T20:19:36.299565
+============================================================
+2026-02-12 20:19:37,292 | INFO     | Processed transaction: ID=TXN-817936, Amount=$915.01, User=USER-5288
+2026-02-12 20:19:37,292 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 8 transactions in the last minute
+Transaction ID: TXN-817936
+User ID: USER-5288
+Amount: $915.01
+Merchant: MERCH-276
+Country: UK
+Detected At: 2026-02-12T20:19:37.291991
+============================================================
+2026-02-12 20:19:38,082 | INFO     | Processed transaction: ID=TXN-719012, Amount=$4002.89, User=USER-2981
+2026-02-12 20:19:38,082 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $4002.89 exceeds threshold of $1000.00
+Transaction ID: TXN-719012
+User ID: USER-2981
+Amount: $4002.89
+Merchant: MERCH-602
+Country: DE
+Detected At: 2026-02-12T20:19:38.082500
+============================================================
+2026-02-12 20:19:38,082 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 9 transactions in the last minute
+Transaction ID: TXN-719012
+User ID: USER-2981
+Amount: $4002.89
+Merchant: MERCH-602
+Country: DE
+Detected At: 2026-02-12T20:19:38.082516
+============================================================
+2026-02-12 20:19:39,023 | INFO     | Processed transaction: ID=TXN-887270, Amount=$3550.48, User=USER-4793
+2026-02-12 20:19:39,023 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $3550.48 exceeds threshold of $1000.00
+Transaction ID: TXN-887270
+User ID: USER-4793
+Amount: $3550.48
+Merchant: MERCH-467
+Country: FR
+Detected At: 2026-02-12T20:19:39.023637
+============================================================
+2026-02-12 20:19:39,024 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 10 transactions in the last minute
+Transaction ID: TXN-887270
+User ID: USER-4793
+Amount: $3550.48
+Merchant: MERCH-467
+Country: FR
+Detected At: 2026-02-12T20:19:39.023649
+============================================================
+2026-02-12 20:19:40,561 | INFO     | Processed transaction: ID=TXN-193160, Amount=$556.94, User=USER-7093
+2026-02-12 20:19:40,561 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 11 transactions in the last minute
+Transaction ID: TXN-193160
+User ID: USER-7093
+Amount: $556.94
+Merchant: MERCH-952
+Country: US
+Detected At: 2026-02-12T20:19:40.561074
+============================================================
+2026-02-12 20:19:41,334 | INFO     | Processed transaction: ID=TXN-557325, Amount=$3198.75, User=USER-4070
+2026-02-12 20:19:41,335 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $3198.75 exceeds threshold of $1000.00
+Transaction ID: TXN-557325
+User ID: USER-4070
+Amount: $3198.75
+Merchant: MERCH-677
+Country: DE
+Detected At: 2026-02-12T20:19:41.334823
+============================================================
+2026-02-12 20:19:41,335 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 12 transactions in the last minute
+Transaction ID: TXN-557325
+User ID: USER-4070
+Amount: $3198.75
+Merchant: MERCH-677
+Country: DE
+Detected At: 2026-02-12T20:19:41.334838
+============================================================
+2026-02-12 20:19:42,843 | INFO     | Processed transaction: ID=TXN-188141, Amount=$145.36, User=USER-9063
+2026-02-12 20:19:42,843 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 13 transactions in the last minute
+Transaction ID: TXN-188141
+User ID: USER-9063
+Amount: $145.36
+Merchant: MERCH-509
+Country: CA
+Detected At: 2026-02-12T20:19:42.843673
+============================================================
+2026-02-12 20:19:43,772 | INFO     | Processed transaction: ID=TXN-159352, Amount=$728.09, User=USER-5015
+2026-02-12 20:19:43,773 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 14 transactions in the last minute
+Transaction ID: TXN-159352
+User ID: USER-5015
+Amount: $728.09
+Merchant: MERCH-146
+Country: US
+Detected At: 2026-02-12T20:19:43.772777
+============================================================
+2026-02-12 20:19:45,353 | INFO     | Processed transaction: ID=TXN-473223, Amount=$2307.04, User=USER-8788
+2026-02-12 20:19:45,354 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $2307.04 exceeds threshold of $1000.00
+Transaction ID: TXN-473223
+User ID: USER-8788
+Amount: $2307.04
+Merchant: MERCH-370
+Country: JP
+Detected At: 2026-02-12T20:19:45.353310
+============================================================
+2026-02-12 20:19:45,354 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 15 transactions in the last minute
+Transaction ID: TXN-473223
+User ID: USER-8788
+Amount: $2307.04
+Merchant: MERCH-370
+Country: JP
+Detected At: 2026-02-12T20:19:45.353326
+============================================================
+2026-02-12 20:19:47,226 | INFO     | Processed transaction: ID=TXN-716244, Amount=$4115.74, User=USER-5711
+2026-02-12 20:19:47,226 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $4115.74 exceeds threshold of $1000.00
+Transaction ID: TXN-716244
+User ID: USER-5711
+Amount: $4115.74
+Merchant: MERCH-502
+Country: US
+Detected At: 2026-02-12T20:19:47.226717
+============================================================
+2026-02-12 20:19:47,226 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 16 transactions in the last minute
+Transaction ID: TXN-716244
+User ID: USER-5711
+Amount: $4115.74
+Merchant: MERCH-502
+Country: US
+Detected At: 2026-02-12T20:19:47.226721
+============================================================
+2026-02-12 20:19:48,499 | INFO     | Processed transaction: ID=TXN-242619, Amount=$3473.70, User=USER-9797
+2026-02-12 20:19:48,499 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $3473.70 exceeds threshold of $1000.00
+Transaction ID: TXN-242619
+User ID: USER-9797
+Amount: $3473.70
+Merchant: MERCH-479
+Country: FR
+Detected At: 2026-02-12T20:19:48.499411
+============================================================
+2026-02-12 20:19:48,499 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 17 transactions in the last minute
+Transaction ID: TXN-242619
+User ID: USER-9797
+Amount: $3473.70
+Merchant: MERCH-479
+Country: FR
+Detected At: 2026-02-12T20:19:48.499416
+============================================================
+2026-02-12 20:19:49,036 | INFO     | Processed transaction: ID=TXN-149209, Amount=$2213.22, User=USER-9389
+2026-02-12 20:19:49,036 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $2213.22 exceeds threshold of $1000.00
+Transaction ID: TXN-149209
+User ID: USER-9389
+Amount: $2213.22
+Merchant: MERCH-776
+Country: JP
+Detected At: 2026-02-12T20:19:49.036645
+============================================================
+2026-02-12 20:19:49,036 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 18 transactions in the last minute
+Transaction ID: TXN-149209
+User ID: USER-9389
+Amount: $2213.22
+Merchant: MERCH-776
+Country: JP
+Detected At: 2026-02-12T20:19:49.036651
+============================================================
+2026-02-12 20:19:50,053 | INFO     | Processed transaction: ID=TXN-127104, Amount=$4952.79, User=USER-5632
+2026-02-12 20:19:50,054 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $4952.79 exceeds threshold of $1000.00
+Transaction ID: TXN-127104
+User ID: USER-5632
+Amount: $4952.79
+Merchant: MERCH-443
+Country: FR
+Detected At: 2026-02-12T20:19:50.053918
+============================================================
+2026-02-12 20:19:50,054 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 19 transactions in the last minute
+Transaction ID: TXN-127104
+User ID: USER-5632
+Amount: $4952.79
+Merchant: MERCH-443
+Country: FR
+Detected At: 2026-02-12T20:19:50.053926
+============================================================
+2026-02-12 20:19:51,627 | INFO     | Processed transaction: ID=TXN-107421, Amount=$2927.19, User=USER-3093
+2026-02-12 20:19:51,627 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $2927.19 exceeds threshold of $1000.00
+Transaction ID: TXN-107421
+User ID: USER-3093
+Amount: $2927.19
+Merchant: MERCH-440
+Country: JP
+Detected At: 2026-02-12T20:19:51.627093
+============================================================
+2026-02-12 20:19:51,627 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 20 transactions in the last minute
+Transaction ID: TXN-107421
+User ID: USER-3093
+Amount: $2927.19
+Merchant: MERCH-440
+Country: JP
+Detected At: 2026-02-12T20:19:51.627118
+============================================================
+2026-02-12 20:19:52,159 | INFO     | Processed transaction: ID=TXN-334710, Amount=$2039.33, User=USER-6796
+2026-02-12 20:19:52,159 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $2039.33 exceeds threshold of $1000.00
+Transaction ID: TXN-334710
+User ID: USER-6796
+Amount: $2039.33
+Merchant: MERCH-293
+Country: JP
+Detected At: 2026-02-12T20:19:52.159637
+============================================================
+2026-02-12 20:19:52,159 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 21 transactions in the last minute
+Transaction ID: TXN-334710
+User ID: USER-6796
+Amount: $2039.33
+Merchant: MERCH-293
+Country: JP
+Detected At: 2026-02-12T20:19:52.159651
+============================================================
+2026-02-12 20:19:53,604 | INFO     | Processed transaction: ID=TXN-175391, Amount=$1292.67, User=USER-8087
+2026-02-12 20:19:53,604 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟢 LOW
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $1292.67 exceeds threshold of $1000.00
+Transaction ID: TXN-175391
+User ID: USER-8087
+Amount: $1292.67
+Merchant: MERCH-238
+Country: JP
+Detected At: 2026-02-12T20:19:53.604143
+============================================================
+2026-02-12 20:19:53,604 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 22 transactions in the last minute
+Transaction ID: TXN-175391
+User ID: USER-8087
+Amount: $1292.67
+Merchant: MERCH-238
+Country: JP
+Detected At: 2026-02-12T20:19:53.604169
+============================================================
+2026-02-12 20:19:54,273 | INFO     | Processed transaction: ID=TXN-413090, Amount=$4465.24, User=USER-6937
+2026-02-12 20:19:54,273 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $4465.24 exceeds threshold of $1000.00
+Transaction ID: TXN-413090
+User ID: USER-6937
+Amount: $4465.24
+Merchant: MERCH-107
+Country: CA
+Detected At: 2026-02-12T20:19:54.273479
+============================================================
+2026-02-12 20:19:54,273 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 23 transactions in the last minute
+Transaction ID: TXN-413090
+User ID: USER-6937
+Amount: $4465.24
+Merchant: MERCH-107
+Country: CA
+Detected At: 2026-02-12T20:19:54.273493
+============================================================
+2026-02-12 20:19:55,383 | INFO     | Processed transaction: ID=TXN-907320, Amount=$4542.56, User=USER-5278
+2026-02-12 20:19:55,384 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $4542.56 exceeds threshold of $1000.00
+Transaction ID: TXN-907320
+User ID: USER-5278
+Amount: $4542.56
+Merchant: MERCH-583
+Country: FR
+Detected At: 2026-02-12T20:19:55.383931
+============================================================
+2026-02-12 20:19:55,384 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 24 transactions in the last minute
+Transaction ID: TXN-907320
+User ID: USER-5278
+Amount: $4542.56
+Merchant: MERCH-583
+Country: FR
+Detected At: 2026-02-12T20:19:55.383949
+============================================================
+2026-02-12 20:19:56,535 | INFO     | Processed transaction: ID=TXN-536647, Amount=$3756.30, User=USER-5380
+2026-02-12 20:19:56,536 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $3756.30 exceeds threshold of $1000.00
+Transaction ID: TXN-536647
+User ID: USER-5380
+Amount: $3756.30
+Merchant: MERCH-883
+Country: JP
+Detected At: 2026-02-12T20:19:56.535714
+============================================================
+2026-02-12 20:19:56,536 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 25 transactions in the last minute
+Transaction ID: TXN-536647
+User ID: USER-5380
+Amount: $3756.30
+Merchant: MERCH-883
+Country: JP
+Detected At: 2026-02-12T20:19:56.535735
+============================================================
+2026-02-13 00:09:07,280 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-13 00:11:17,976 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-13 00:11:18,456 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-13 00:11:18,660 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-13 00:11:18,844 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-13 00:22:01,416 | INFO     | ============================================================
+2026-02-13 00:22:01,416 | INFO     | FRAUD DETECTION CONSUMER STARTING
+2026-02-13 00:22:01,416 | INFO     | ============================================================
+2026-02-13 00:22:01,416 | INFO     | Topic: ecommerce-transactions
+2026-02-13 00:22:01,416 | INFO     | Bootstrap Servers: ['localhost:9095']
+2026-02-13 00:22:01,416 | INFO     | Batch Interval: 30 seconds
+2026-02-13 00:22:01,416 | INFO     | Amount Threshold: $1000.0
+2026-02-13 00:22:01,416 | INFO     | ============================================================
+2026-02-13 00:22:01,416 | WARNING  | Kafka not available - running in simulation mode
+2026-02-13 00:22:01,416 | INFO     | Running in SIMULATION mode (generating sample transactions)
+2026-02-13 00:22:01,416 | INFO     | Processed transaction: ID=TXN-600751, Amount=$464.66, User=USER-6901
+2026-02-13 00:22:02,794 | INFO     | Processed transaction: ID=TXN-847280, Amount=$600.19, User=USER-2648
+2026-02-13 00:22:04,061 | INFO     | Processed transaction: ID=TXN-939202, Amount=$716.52, User=USER-4131
+2026-02-13 00:22:05,047 | INFO     | Processed transaction: ID=TXN-747807, Amount=$3008.19, User=USER-3889
+2026-02-13 00:22:05,047 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $3008.19 exceeds threshold of $1000.00
+Transaction ID: TXN-747807
+User ID: USER-3889
+Amount: $3008.19
+Merchant: MERCH-589
+Country: FR
+Detected At: 2026-02-13T00:22:05.047078
+============================================================
+2026-02-13 00:22:06,976 | INFO     | Processed transaction: ID=TXN-557064, Amount=$2194.28, User=USER-8351
+2026-02-13 00:22:06,976 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $2194.28 exceeds threshold of $1000.00
+Transaction ID: TXN-557064
+User ID: USER-8351
+Amount: $2194.28
+Merchant: MERCH-930
+Country: US
+Detected At: 2026-02-13T00:22:06.976384
+============================================================
+2026-02-13 00:22:08,004 | INFO     | Processed transaction: ID=TXN-186227, Amount=$1296.70, User=USER-7856
+2026-02-13 00:22:08,005 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟢 LOW
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $1296.70 exceeds threshold of $1000.00
+Transaction ID: TXN-186227
+User ID: USER-7856
+Amount: $1296.70
+Merchant: MERCH-489
+Country: US
+Detected At: 2026-02-13T00:22:08.004643
+============================================================
+2026-02-13 00:22:08,005 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 6 transactions in the last minute
+Transaction ID: TXN-186227
+User ID: USER-7856
+Amount: $1296.70
+Merchant: MERCH-489
+Country: US
+Detected At: 2026-02-13T00:22:08.004660
+============================================================
+2026-02-13 00:22:09,421 | INFO     | Processed transaction: ID=TXN-584035, Amount=$4608.12, User=USER-6903
+2026-02-13 00:22:09,421 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $4608.12 exceeds threshold of $1000.00
+Transaction ID: TXN-584035
+User ID: USER-6903
+Amount: $4608.12
+Merchant: MERCH-737
+Country: CA
+Detected At: 2026-02-13T00:22:09.421529
+============================================================
+2026-02-13 00:22:09,421 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 7 transactions in the last minute
+Transaction ID: TXN-584035
+User ID: USER-6903
+Amount: $4608.12
+Merchant: MERCH-737
+Country: CA
+Detected At: 2026-02-13T00:22:09.421534
+============================================================
+2026-02-13 00:22:10,578 | INFO     | Processed transaction: ID=TXN-617458, Amount=$731.23, User=USER-2369
+2026-02-13 00:22:10,579 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 8 transactions in the last minute
+Transaction ID: TXN-617458
+User ID: USER-2369
+Amount: $731.23
+Merchant: MERCH-813
+Country: US
+Detected At: 2026-02-13T00:22:10.578605
+============================================================
+2026-02-13 00:22:12,042 | INFO     | Processed transaction: ID=TXN-747464, Amount=$4415.23, User=USER-4880
+2026-02-13 00:22:12,043 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $4415.23 exceeds threshold of $1000.00
+Transaction ID: TXN-747464
+User ID: USER-4880
+Amount: $4415.23
+Merchant: MERCH-328
+Country: DE
+Detected At: 2026-02-13T00:22:12.042643
+============================================================
+2026-02-13 00:22:12,043 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 9 transactions in the last minute
+Transaction ID: TXN-747464
+User ID: USER-4880
+Amount: $4415.23
+Merchant: MERCH-328
+Country: DE
+Detected At: 2026-02-13T00:22:12.042669
+============================================================
+2026-02-13 00:22:13,136 | INFO     | Processed transaction: ID=TXN-532631, Amount=$4598.43, User=USER-9270
+2026-02-13 00:22:13,137 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $4598.43 exceeds threshold of $1000.00
+Transaction ID: TXN-532631
+User ID: USER-9270
+Amount: $4598.43
+Merchant: MERCH-968
+Country: UK
+Detected At: 2026-02-13T00:22:13.136892
+============================================================
+2026-02-13 00:22:13,137 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 10 transactions in the last minute
+Transaction ID: TXN-532631
+User ID: USER-9270
+Amount: $4598.43
+Merchant: MERCH-968
+Country: UK
+Detected At: 2026-02-13T00:22:13.136919
+============================================================
+2026-02-13 00:22:15,015 | INFO     | Processed transaction: ID=TXN-231182, Amount=$4886.00, User=USER-2709
+2026-02-13 00:22:15,015 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $4886.00 exceeds threshold of $1000.00
+Transaction ID: TXN-231182
+User ID: USER-2709
+Amount: $4886.00
+Merchant: MERCH-135
+Country: FR
+Detected At: 2026-02-13T00:22:15.015338
+============================================================
+2026-02-13 00:22:15,016 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 11 transactions in the last minute
+Transaction ID: TXN-231182
+User ID: USER-2709
+Amount: $4886.00
+Merchant: MERCH-135
+Country: FR
+Detected At: 2026-02-13T00:22:15.015365
+============================================================
+2026-02-13 00:22:15,977 | INFO     | Processed transaction: ID=TXN-880328, Amount=$1889.71, User=USER-2773
+2026-02-13 00:22:15,977 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $1889.71 exceeds threshold of $1000.00
+Transaction ID: TXN-880328
+User ID: USER-2773
+Amount: $1889.71
+Merchant: MERCH-700
+Country: FR
+Detected At: 2026-02-13T00:22:15.977479
+============================================================
+2026-02-13 00:22:15,978 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 12 transactions in the last minute
+Transaction ID: TXN-880328
+User ID: USER-2773
+Amount: $1889.71
+Merchant: MERCH-700
+Country: FR
+Detected At: 2026-02-13T00:22:15.977503
+============================================================
+2026-02-13 00:22:17,817 | INFO     | Processed transaction: ID=TXN-924960, Amount=$908.04, User=USER-1945
+2026-02-13 00:22:17,817 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 13 transactions in the last minute
+Transaction ID: TXN-924960
+User ID: USER-1945
+Amount: $908.04
+Merchant: MERCH-561
+Country: CA
+Detected At: 2026-02-13T00:22:17.817449
+============================================================
+2026-02-13 00:22:19,137 | INFO     | Processed transaction: ID=TXN-878713, Amount=$2292.42, User=USER-3374
+2026-02-13 00:22:19,137 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $2292.42 exceeds threshold of $1000.00
+Transaction ID: TXN-878713
+User ID: USER-3374
+Amount: $2292.42
+Merchant: MERCH-486
+Country: FR
+Detected At: 2026-02-13T00:22:19.136892
+============================================================
+2026-02-13 00:22:19,138 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 14 transactions in the last minute
+Transaction ID: TXN-878713
+User ID: USER-3374
+Amount: $2292.42
+Merchant: MERCH-486
+Country: FR
+Detected At: 2026-02-13T00:22:19.136921
+============================================================
+2026-02-13 00:22:19,814 | INFO     | Processed transaction: ID=TXN-417392, Amount=$954.24, User=USER-8121
+2026-02-13 00:22:19,814 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 15 transactions in the last minute
+Transaction ID: TXN-417392
+User ID: USER-8121
+Amount: $954.24
+Merchant: MERCH-225
+Country: DE
+Detected At: 2026-02-13T00:22:19.814379
+============================================================
+2026-02-13 00:22:20,731 | INFO     | Processed transaction: ID=TXN-910716, Amount=$3463.38, User=USER-8249
+2026-02-13 00:22:20,731 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $3463.38 exceeds threshold of $1000.00
+Transaction ID: TXN-910716
+User ID: USER-8249
+Amount: $3463.38
+Merchant: MERCH-859
+Country: CA
+Detected At: 2026-02-13T00:22:20.731116
+============================================================
+2026-02-13 00:22:20,731 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 16 transactions in the last minute
+Transaction ID: TXN-910716
+User ID: USER-8249
+Amount: $3463.38
+Merchant: MERCH-859
+Country: CA
+Detected At: 2026-02-13T00:22:20.731137
+============================================================
+2026-02-13 00:22:21,354 | INFO     | Processed transaction: ID=TXN-115708, Amount=$1639.49, User=USER-1976
+2026-02-13 00:22:21,355 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $1639.49 exceeds threshold of $1000.00
+Transaction ID: TXN-115708
+User ID: USER-1976
+Amount: $1639.49
+Merchant: MERCH-370
+Country: CA
+Detected At: 2026-02-13T00:22:21.354858
+============================================================
+2026-02-13 00:22:21,355 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 17 transactions in the last minute
+Transaction ID: TXN-115708
+User ID: USER-1976
+Amount: $1639.49
+Merchant: MERCH-370
+Country: CA
+Detected At: 2026-02-13T00:22:21.354868
+============================================================
+2026-02-13 00:22:23,134 | INFO     | Processed transaction: ID=TXN-137030, Amount=$2302.69, User=USER-4099
+2026-02-13 00:22:23,134 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $2302.69 exceeds threshold of $1000.00
+Transaction ID: TXN-137030
+User ID: USER-4099
+Amount: $2302.69
+Merchant: MERCH-203
+Country: CA
+Detected At: 2026-02-13T00:22:23.134131
+============================================================
+2026-02-13 00:22:23,134 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 18 transactions in the last minute
+Transaction ID: TXN-137030
+User ID: USER-4099
+Amount: $2302.69
+Merchant: MERCH-203
+Country: CA
+Detected At: 2026-02-13T00:22:23.134162
+============================================================
+2026-02-13 00:22:23,908 | INFO     | Processed transaction: ID=TXN-342893, Amount=$1076.03, User=USER-9597
+2026-02-13 00:22:23,909 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟢 LOW
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $1076.03 exceeds threshold of $1000.00
+Transaction ID: TXN-342893
+User ID: USER-9597
+Amount: $1076.03
+Merchant: MERCH-258
+Country: FR
+Detected At: 2026-02-13T00:22:23.908770
+============================================================
+2026-02-13 00:22:23,909 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 19 transactions in the last minute
+Transaction ID: TXN-342893
+User ID: USER-9597
+Amount: $1076.03
+Merchant: MERCH-258
+Country: FR
+Detected At: 2026-02-13T00:22:23.908804
+============================================================
+2026-02-13 00:22:25,121 | INFO     | Processed transaction: ID=TXN-912516, Amount=$4920.20, User=USER-4274
+2026-02-13 00:22:25,121 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $4920.20 exceeds threshold of $1000.00
+Transaction ID: TXN-912516
+User ID: USER-4274
+Amount: $4920.20
+Merchant: MERCH-574
+Country: UK
+Detected At: 2026-02-13T00:22:25.121226
+============================================================
+2026-02-13 00:22:25,121 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 20 transactions in the last minute
+Transaction ID: TXN-912516
+User ID: USER-4274
+Amount: $4920.20
+Merchant: MERCH-574
+Country: UK
+Detected At: 2026-02-13T00:22:25.121258
+============================================================
+2026-02-13 00:22:26,870 | INFO     | Processed transaction: ID=TXN-610479, Amount=$1446.00, User=USER-5194
+2026-02-13 00:22:26,871 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟢 LOW
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $1446.00 exceeds threshold of $1000.00
+Transaction ID: TXN-610479
+User ID: USER-5194
+Amount: $1446.00
+Merchant: MERCH-283
+Country: US
+Detected At: 2026-02-13T00:22:26.870512
+============================================================
+2026-02-13 00:22:26,872 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 21 transactions in the last minute
+Transaction ID: TXN-610479
+User ID: USER-5194
+Amount: $1446.00
+Merchant: MERCH-283
+Country: US
+Detected At: 2026-02-13T00:22:26.870546
+============================================================
+2026-02-13 00:22:27,670 | INFO     | Processed transaction: ID=TXN-466244, Amount=$958.43, User=USER-8397
+2026-02-13 00:22:27,671 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 22 transactions in the last minute
+Transaction ID: TXN-466244
+User ID: USER-8397
+Amount: $958.43
+Merchant: MERCH-248
+Country: DE
+Detected At: 2026-02-13T00:22:27.670880
+============================================================
+2026-02-13 00:22:29,254 | INFO     | Processed transaction: ID=TXN-485116, Amount=$2451.54, User=USER-6040
+2026-02-13 00:22:29,254 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $2451.54 exceeds threshold of $1000.00
+Transaction ID: TXN-485116
+User ID: USER-6040
+Amount: $2451.54
+Merchant: MERCH-634
+Country: DE
+Detected At: 2026-02-13T00:22:29.254306
+============================================================
+2026-02-13 00:22:29,255 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 23 transactions in the last minute
+Transaction ID: TXN-485116
+User ID: USER-6040
+Amount: $2451.54
+Merchant: MERCH-634
+Country: DE
+Detected At: 2026-02-13T00:22:29.254343
+============================================================
+2026-02-13 00:22:29,900 | INFO     | Processed transaction: ID=TXN-260172, Amount=$3355.45, User=USER-6079
+2026-02-13 00:22:29,900 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $3355.45 exceeds threshold of $1000.00
+Transaction ID: TXN-260172
+User ID: USER-6079
+Amount: $3355.45
+Merchant: MERCH-757
+Country: FR
+Detected At: 2026-02-13T00:22:29.900297
+============================================================
+2026-02-13 00:22:29,900 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 24 transactions in the last minute
+Transaction ID: TXN-260172
+User ID: USER-6079
+Amount: $3355.45
+Merchant: MERCH-757
+Country: FR
+Detected At: 2026-02-13T00:22:29.900330
+============================================================
+2026-02-13 00:22:30,866 | INFO     | Processed transaction: ID=TXN-577339, Amount=$2433.76, User=USER-3056
+2026-02-13 00:22:30,867 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $2433.76 exceeds threshold of $1000.00
+Transaction ID: TXN-577339
+User ID: USER-3056
+Amount: $2433.76
+Merchant: MERCH-949
+Country: US
+Detected At: 2026-02-13T00:22:30.866477
+============================================================
+2026-02-13 00:22:30,867 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 25 transactions in the last minute
+Transaction ID: TXN-577339
+User ID: USER-3056
+Amount: $2433.76
+Merchant: MERCH-949
+Country: US
+Detected At: 2026-02-13T00:22:30.866550
+============================================================
+2026-02-13 10:17:19,095 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-13 10:41:06,630 | INFO     | ============================================================
+2026-02-13 10:41:06,630 | INFO     | FRAUD DETECTION CONSUMER STARTING
+2026-02-13 10:41:06,631 | INFO     | ============================================================
+2026-02-13 10:41:06,631 | INFO     | Topic: ecommerce-transactions
+2026-02-13 10:41:06,631 | INFO     | Bootstrap Servers: ['localhost:9095']
+2026-02-13 10:41:06,631 | INFO     | Batch Interval: 30 seconds
+2026-02-13 10:41:06,631 | INFO     | Amount Threshold: $1000.0
+2026-02-13 10:41:06,631 | INFO     | ============================================================
+2026-02-13 10:41:06,631 | WARNING  | Kafka not available - running in simulation mode
+2026-02-13 10:41:06,631 | INFO     | Running in SIMULATION mode (generating sample transactions)
+2026-02-13 10:41:06,631 | INFO     | Processed transaction: ID=TXN-606703, Amount=$1880.51, User=USER-8429
+2026-02-13 10:41:06,631 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $1880.51 exceeds threshold of $1000.00
+Transaction ID: TXN-606703
+User ID: USER-8429
+Amount: $1880.51
+Merchant: MERCH-334
+Country: DE
+Detected At: 2026-02-13T10:41:06.631639
+============================================================
+2026-02-13 10:41:08,576 | INFO     | Processed transaction: ID=TXN-632095, Amount=$4758.63, User=USER-6333
+2026-02-13 10:41:08,576 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $4758.63 exceeds threshold of $1000.00
+Transaction ID: TXN-632095
+User ID: USER-6333
+Amount: $4758.63
+Merchant: MERCH-179
+Country: FR
+Detected At: 2026-02-13T10:41:08.575930
+============================================================
+2026-02-13 10:41:10,511 | INFO     | Processed transaction: ID=TXN-742584, Amount=$3890.55, User=USER-3313
+2026-02-13 10:41:10,511 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $3890.55 exceeds threshold of $1000.00
+Transaction ID: TXN-742584
+User ID: USER-3313
+Amount: $3890.55
+Merchant: MERCH-365
+Country: DE
+Detected At: 2026-02-13T10:41:10.511004
+============================================================
+2026-02-13 10:41:11,353 | INFO     | Processed transaction: ID=TXN-726547, Amount=$128.39, User=USER-4317
+2026-02-13 10:41:13,356 | INFO     | Processed transaction: ID=TXN-307458, Amount=$2639.21, User=USER-1157
+2026-02-13 10:41:13,356 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $2639.21 exceeds threshold of $1000.00
+Transaction ID: TXN-307458
+User ID: USER-1157
+Amount: $2639.21
+Merchant: MERCH-575
+Country: US
+Detected At: 2026-02-13T10:41:13.355959
+============================================================
+2026-02-13 10:41:15,302 | INFO     | Processed transaction: ID=TXN-634699, Amount=$3155.97, User=USER-7829
+2026-02-13 10:41:15,302 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $3155.97 exceeds threshold of $1000.00
+Transaction ID: TXN-634699
+User ID: USER-7829
+Amount: $3155.97
+Merchant: MERCH-677
+Country: UK
+Detected At: 2026-02-13T10:41:15.301919
+============================================================
+2026-02-13 10:41:15,302 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 6 transactions in the last minute
+Transaction ID: TXN-634699
+User ID: USER-7829
+Amount: $3155.97
+Merchant: MERCH-677
+Country: UK
+Detected At: 2026-02-13T10:41:15.301942
+============================================================
+2026-02-13 10:41:15,973 | INFO     | Processed transaction: ID=TXN-375119, Amount=$3905.75, User=USER-4176
+2026-02-13 10:41:15,974 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $3905.75 exceeds threshold of $1000.00
+Transaction ID: TXN-375119
+User ID: USER-4176
+Amount: $3905.75
+Merchant: MERCH-722
+Country: DE
+Detected At: 2026-02-13T10:41:15.973734
+============================================================
+2026-02-13 10:41:15,974 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 7 transactions in the last minute
+Transaction ID: TXN-375119
+User ID: USER-4176
+Amount: $3905.75
+Merchant: MERCH-722
+Country: DE
+Detected At: 2026-02-13T10:41:15.973755
+============================================================
+2026-02-13 10:41:17,722 | INFO     | Processed transaction: ID=TXN-878975, Amount=$3614.05, User=USER-3287
+2026-02-13 10:41:17,723 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $3614.05 exceeds threshold of $1000.00
+Transaction ID: TXN-878975
+User ID: USER-3287
+Amount: $3614.05
+Merchant: MERCH-314
+Country: US
+Detected At: 2026-02-13T10:41:17.722823
+============================================================
+2026-02-13 10:41:17,723 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 8 transactions in the last minute
+Transaction ID: TXN-878975
+User ID: USER-3287
+Amount: $3614.05
+Merchant: MERCH-314
+Country: US
+Detected At: 2026-02-13T10:41:17.722850
+============================================================
+2026-02-13 10:41:19,588 | INFO     | Processed transaction: ID=TXN-763417, Amount=$4122.53, User=USER-3405
+2026-02-13 10:41:19,588 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $4122.53 exceeds threshold of $1000.00
+Transaction ID: TXN-763417
+User ID: USER-3405
+Amount: $4122.53
+Merchant: MERCH-825
+Country: US
+Detected At: 2026-02-13T10:41:19.588717
+============================================================
+2026-02-13 10:41:19,589 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 9 transactions in the last minute
+Transaction ID: TXN-763417
+User ID: USER-3405
+Amount: $4122.53
+Merchant: MERCH-825
+Country: US
+Detected At: 2026-02-13T10:41:19.588729
+============================================================
+2026-02-13 10:41:21,327 | INFO     | Processed transaction: ID=TXN-846905, Amount=$3937.90, User=USER-2514
+2026-02-13 10:41:21,327 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $3937.90 exceeds threshold of $1000.00
+Transaction ID: TXN-846905
+User ID: USER-2514
+Amount: $3937.90
+Merchant: MERCH-223
+Country: JP
+Detected At: 2026-02-13T10:41:21.327695
+============================================================
+2026-02-13 10:41:21,328 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 10 transactions in the last minute
+Transaction ID: TXN-846905
+User ID: USER-2514
+Amount: $3937.90
+Merchant: MERCH-223
+Country: JP
+Detected At: 2026-02-13T10:41:21.327710
+============================================================
+2026-02-13 10:41:22,172 | INFO     | Processed transaction: ID=TXN-478878, Amount=$3145.34, User=USER-5224
+2026-02-13 10:41:22,173 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $3145.34 exceeds threshold of $1000.00
+Transaction ID: TXN-478878
+User ID: USER-5224
+Amount: $3145.34
+Merchant: MERCH-474
+Country: JP
+Detected At: 2026-02-13T10:41:22.172800
+============================================================
+2026-02-13 10:41:22,173 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 11 transactions in the last minute
+Transaction ID: TXN-478878
+User ID: USER-5224
+Amount: $3145.34
+Merchant: MERCH-474
+Country: JP
+Detected At: 2026-02-13T10:41:22.172820
+============================================================
+2026-02-13 10:41:22,926 | INFO     | Processed transaction: ID=TXN-546852, Amount=$3951.61, User=USER-6860
+2026-02-13 10:41:22,926 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $3951.61 exceeds threshold of $1000.00
+Transaction ID: TXN-546852
+User ID: USER-6860
+Amount: $3951.61
+Merchant: MERCH-716
+Country: FR
+Detected At: 2026-02-13T10:41:22.926070
+============================================================
+2026-02-13 10:41:22,926 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 12 transactions in the last minute
+Transaction ID: TXN-546852
+User ID: USER-6860
+Amount: $3951.61
+Merchant: MERCH-716
+Country: FR
+Detected At: 2026-02-13T10:41:22.926084
+============================================================
+2026-02-13 10:41:23,598 | INFO     | Processed transaction: ID=TXN-270357, Amount=$2184.38, User=USER-9242
+2026-02-13 10:41:23,598 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $2184.38 exceeds threshold of $1000.00
+Transaction ID: TXN-270357
+User ID: USER-9242
+Amount: $2184.38
+Merchant: MERCH-416
+Country: CA
+Detected At: 2026-02-13T10:41:23.598343
+============================================================
+2026-02-13 10:41:23,598 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 13 transactions in the last minute
+Transaction ID: TXN-270357
+User ID: USER-9242
+Amount: $2184.38
+Merchant: MERCH-416
+Country: CA
+Detected At: 2026-02-13T10:41:23.598360
+============================================================
+2026-02-13 10:41:24,201 | INFO     | Processed transaction: ID=TXN-729183, Amount=$4209.14, User=USER-6984
+2026-02-13 10:41:24,202 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $4209.14 exceeds threshold of $1000.00
+Transaction ID: TXN-729183
+User ID: USER-6984
+Amount: $4209.14
+Merchant: MERCH-138
+Country: UK
+Detected At: 2026-02-13T10:41:24.201497
+============================================================
+2026-02-13 10:41:24,202 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 14 transactions in the last minute
+Transaction ID: TXN-729183
+User ID: USER-6984
+Amount: $4209.14
+Merchant: MERCH-138
+Country: UK
+Detected At: 2026-02-13T10:41:24.201513
+============================================================
+2026-02-13 10:41:24,885 | INFO     | Processed transaction: ID=TXN-421169, Amount=$3883.49, User=USER-7339
+2026-02-13 10:41:24,885 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $3883.49 exceeds threshold of $1000.00
+Transaction ID: TXN-421169
+User ID: USER-7339
+Amount: $3883.49
+Merchant: MERCH-279
+Country: DE
+Detected At: 2026-02-13T10:41:24.885640
+============================================================
+2026-02-13 10:41:24,885 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 15 transactions in the last minute
+Transaction ID: TXN-421169
+User ID: USER-7339
+Amount: $3883.49
+Merchant: MERCH-279
+Country: DE
+Detected At: 2026-02-13T10:41:24.885644
+============================================================
+2026-02-13 10:41:25,683 | INFO     | Processed transaction: ID=TXN-282001, Amount=$2331.78, User=USER-2790
+2026-02-13 10:41:25,684 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $2331.78 exceeds threshold of $1000.00
+Transaction ID: TXN-282001
+User ID: USER-2790
+Amount: $2331.78
+Merchant: MERCH-955
+Country: CA
+Detected At: 2026-02-13T10:41:25.683891
+============================================================
+2026-02-13 10:41:25,684 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 16 transactions in the last minute
+Transaction ID: TXN-282001
+User ID: USER-2790
+Amount: $2331.78
+Merchant: MERCH-955
+Country: CA
+Detected At: 2026-02-13T10:41:25.683897
+============================================================
+2026-02-13 10:41:27,598 | INFO     | Processed transaction: ID=TXN-128198, Amount=$4018.08, User=USER-3337
+2026-02-13 10:41:27,598 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $4018.08 exceeds threshold of $1000.00
+Transaction ID: TXN-128198
+User ID: USER-3337
+Amount: $4018.08
+Merchant: MERCH-270
+Country: UK
+Detected At: 2026-02-13T10:41:27.598637
+============================================================
+2026-02-13 10:41:27,598 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 17 transactions in the last minute
+Transaction ID: TXN-128198
+User ID: USER-3337
+Amount: $4018.08
+Merchant: MERCH-270
+Country: UK
+Detected At: 2026-02-13T10:41:27.598646
+============================================================
+2026-02-13 10:41:28,432 | INFO     | Processed transaction: ID=TXN-818497, Amount=$2228.57, User=USER-6977
+2026-02-13 10:41:28,433 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $2228.57 exceeds threshold of $1000.00
+Transaction ID: TXN-818497
+User ID: USER-6977
+Amount: $2228.57
+Merchant: MERCH-319
+Country: JP
+Detected At: 2026-02-13T10:41:28.432931
+============================================================
+2026-02-13 10:41:28,433 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 18 transactions in the last minute
+Transaction ID: TXN-818497
+User ID: USER-6977
+Amount: $2228.57
+Merchant: MERCH-319
+Country: JP
+Detected At: 2026-02-13T10:41:28.432950
+============================================================
+2026-02-13 10:41:30,196 | INFO     | Processed transaction: ID=TXN-827365, Amount=$2177.00, User=USER-3518
+2026-02-13 10:41:30,196 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $2177.00 exceeds threshold of $1000.00
+Transaction ID: TXN-827365
+User ID: USER-3518
+Amount: $2177.00
+Merchant: MERCH-890
+Country: CA
+Detected At: 2026-02-13T10:41:30.196388
+============================================================
+2026-02-13 10:41:30,196 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 19 transactions in the last minute
+Transaction ID: TXN-827365
+User ID: USER-3518
+Amount: $2177.00
+Merchant: MERCH-890
+Country: CA
+Detected At: 2026-02-13T10:41:30.196404
+============================================================
+2026-02-13 10:41:31,852 | INFO     | Processed transaction: ID=TXN-509697, Amount=$3419.24, User=USER-5971
+2026-02-13 10:41:31,852 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $3419.24 exceeds threshold of $1000.00
+Transaction ID: TXN-509697
+User ID: USER-5971
+Amount: $3419.24
+Merchant: MERCH-503
+Country: UK
+Detected At: 2026-02-13T10:41:31.852143
+============================================================
+2026-02-13 10:41:31,852 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 20 transactions in the last minute
+Transaction ID: TXN-509697
+User ID: USER-5971
+Amount: $3419.24
+Merchant: MERCH-503
+Country: UK
+Detected At: 2026-02-13T10:41:31.852170
+============================================================
+2026-02-13 10:41:32,455 | INFO     | Processed transaction: ID=TXN-529803, Amount=$2628.06, User=USER-6440
+2026-02-13 10:41:32,455 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $2628.06 exceeds threshold of $1000.00
+Transaction ID: TXN-529803
+User ID: USER-6440
+Amount: $2628.06
+Merchant: MERCH-159
+Country: JP
+Detected At: 2026-02-13T10:41:32.455423
+============================================================
+2026-02-13 10:41:32,456 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 21 transactions in the last minute
+Transaction ID: TXN-529803
+User ID: USER-6440
+Amount: $2628.06
+Merchant: MERCH-159
+Country: JP
+Detected At: 2026-02-13T10:41:32.455451
+============================================================
+2026-02-13 10:41:33,994 | INFO     | Processed transaction: ID=TXN-990522, Amount=$2009.27, User=USER-3837
+2026-02-13 10:41:33,994 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $2009.27 exceeds threshold of $1000.00
+Transaction ID: TXN-990522
+User ID: USER-3837
+Amount: $2009.27
+Merchant: MERCH-822
+Country: DE
+Detected At: 2026-02-13T10:41:33.994273
+============================================================
+2026-02-13 10:41:33,994 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 22 transactions in the last minute
+Transaction ID: TXN-990522
+User ID: USER-3837
+Amount: $2009.27
+Merchant: MERCH-822
+Country: DE
+Detected At: 2026-02-13T10:41:33.994293
+============================================================
+2026-02-13 10:41:34,551 | INFO     | Processed transaction: ID=TXN-964670, Amount=$1970.26, User=USER-3534
+2026-02-13 10:41:34,552 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $1970.26 exceeds threshold of $1000.00
+Transaction ID: TXN-964670
+User ID: USER-3534
+Amount: $1970.26
+Merchant: MERCH-570
+Country: US
+Detected At: 2026-02-13T10:41:34.551532
+============================================================
+2026-02-13 10:41:34,552 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 23 transactions in the last minute
+Transaction ID: TXN-964670
+User ID: USER-3534
+Amount: $1970.26
+Merchant: MERCH-570
+Country: US
+Detected At: 2026-02-13T10:41:34.551548
+============================================================
+2026-02-13 10:41:35,633 | INFO     | Processed transaction: ID=TXN-108025, Amount=$247.37, User=USER-1664
+2026-02-13 10:41:35,633 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 24 transactions in the last minute
+Transaction ID: TXN-108025
+User ID: USER-1664
+Amount: $247.37
+Merchant: MERCH-147
+Country: FR
+Detected At: 2026-02-13T10:41:35.632985
+============================================================
+2026-02-13 10:41:36,509 | INFO     | Processed transaction: ID=TXN-585218, Amount=$2844.93, User=USER-3571
+2026-02-13 10:41:36,509 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $2844.93 exceeds threshold of $1000.00
+Transaction ID: TXN-585218
+User ID: USER-3571
+Amount: $2844.93
+Merchant: MERCH-337
+Country: FR
+Detected At: 2026-02-13T10:41:36.509315
+============================================================
+2026-02-13 10:41:36,509 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 25 transactions in the last minute
+Transaction ID: TXN-585218
+User ID: USER-3571
+Amount: $2844.93
+Merchant: MERCH-337
+Country: FR
+Detected At: 2026-02-13T10:41:36.509343
+============================================================
+2026-02-13 11:37:58,370 | INFO     | Shutdown signal received. Stopping consumer...
+2026-02-13 11:39:51,950 | INFO     | ============================================================
+2026-02-13 11:39:51,950 | INFO     | FRAUD DETECTION CONSUMER STARTING
+2026-02-13 11:39:51,950 | INFO     | ============================================================
+2026-02-13 11:39:51,950 | INFO     | Topic: ecommerce-transactions
+2026-02-13 11:39:51,950 | INFO     | Bootstrap Servers: ['localhost:9095']
+2026-02-13 11:39:51,950 | INFO     | Batch Interval: 30 seconds
+2026-02-13 11:39:51,950 | INFO     | Amount Threshold: $1000.0
+2026-02-13 11:39:51,950 | INFO     | ============================================================
+2026-02-13 11:39:51,950 | WARNING  | Kafka not available - running in simulation mode
+2026-02-13 11:39:51,950 | INFO     | Running in SIMULATION mode (generating sample transactions)
+2026-02-13 11:39:51,950 | INFO     | Processed transaction: ID=TXN-149192, Amount=$2572.61, User=USER-5609
+2026-02-13 11:39:51,950 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $2572.61 exceeds threshold of $1000.00
+Transaction ID: TXN-149192
+User ID: USER-5609
+Amount: $2572.61
+Merchant: MERCH-386
+Country: JP
+Detected At: 2026-02-13T11:39:51.950275
+============================================================
+2026-02-13 11:39:52,787 | INFO     | Processed transaction: ID=TXN-289965, Amount=$329.80, User=USER-5935
+2026-02-13 11:39:54,487 | INFO     | Processed transaction: ID=TXN-565035, Amount=$3327.87, User=USER-3334
+2026-02-13 11:39:54,487 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $3327.87 exceeds threshold of $1000.00
+Transaction ID: TXN-565035
+User ID: USER-3334
+Amount: $3327.87
+Merchant: MERCH-683
+Country: US
+Detected At: 2026-02-13T11:39:54.487434
+============================================================
+2026-02-13 11:39:56,424 | INFO     | Processed transaction: ID=TXN-767362, Amount=$4730.72, User=USER-5864
+2026-02-13 11:39:56,424 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $4730.72 exceeds threshold of $1000.00
+Transaction ID: TXN-767362
+User ID: USER-5864
+Amount: $4730.72
+Merchant: MERCH-358
+Country: JP
+Detected At: 2026-02-13T11:39:56.424010
+============================================================
+2026-02-13 11:39:57,176 | INFO     | Processed transaction: ID=TXN-577412, Amount=$1255.49, User=USER-5981
+2026-02-13 11:39:57,176 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟢 LOW
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $1255.49 exceeds threshold of $1000.00
+Transaction ID: TXN-577412
+User ID: USER-5981
+Amount: $1255.49
+Merchant: MERCH-217
+Country: US
+Detected At: 2026-02-13T11:39:57.175959
+============================================================
+2026-02-13 11:39:58,538 | INFO     | Processed transaction: ID=TXN-783168, Amount=$3455.95, User=USER-1637
+2026-02-13 11:39:58,538 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $3455.95 exceeds threshold of $1000.00
+Transaction ID: TXN-783168
+User ID: USER-1637
+Amount: $3455.95
+Merchant: MERCH-684
+Country: UK
+Detected At: 2026-02-13T11:39:58.538107
+============================================================
+2026-02-13 11:39:58,538 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 6 transactions in the last minute
+Transaction ID: TXN-783168
+User ID: USER-1637
+Amount: $3455.95
+Merchant: MERCH-684
+Country: UK
+Detected At: 2026-02-13T11:39:58.538126
+============================================================
+2026-02-13 11:39:59,430 | INFO     | Processed transaction: ID=TXN-126612, Amount=$1708.10, User=USER-8741
+2026-02-13 11:39:59,431 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $1708.10 exceeds threshold of $1000.00
+Transaction ID: TXN-126612
+User ID: USER-8741
+Amount: $1708.10
+Merchant: MERCH-545
+Country: CA
+Detected At: 2026-02-13T11:39:59.430774
+============================================================
+2026-02-13 11:39:59,431 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 7 transactions in the last minute
+Transaction ID: TXN-126612
+User ID: USER-8741
+Amount: $1708.10
+Merchant: MERCH-545
+Country: CA
+Detected At: 2026-02-13T11:39:59.430801
+============================================================
+2026-02-13 11:40:00,987 | INFO     | Processed transaction: ID=TXN-451221, Amount=$3553.42, User=USER-2190
+2026-02-13 11:40:00,988 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $3553.42 exceeds threshold of $1000.00
+Transaction ID: TXN-451221
+User ID: USER-2190
+Amount: $3553.42
+Merchant: MERCH-191
+Country: JP
+Detected At: 2026-02-13T11:40:00.987282
+============================================================
+2026-02-13 11:40:00,988 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 8 transactions in the last minute
+Transaction ID: TXN-451221
+User ID: USER-2190
+Amount: $3553.42
+Merchant: MERCH-191
+Country: JP
+Detected At: 2026-02-13T11:40:00.987309
+============================================================
+2026-02-13 11:40:02,048 | INFO     | Processed transaction: ID=TXN-678211, Amount=$4604.61, User=USER-7640
+2026-02-13 11:40:02,048 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $4604.61 exceeds threshold of $1000.00
+Transaction ID: TXN-678211
+User ID: USER-7640
+Amount: $4604.61
+Merchant: MERCH-680
+Country: JP
+Detected At: 2026-02-13T11:40:02.048469
+============================================================
+2026-02-13 11:40:02,048 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 9 transactions in the last minute
+Transaction ID: TXN-678211
+User ID: USER-7640
+Amount: $4604.61
+Merchant: MERCH-680
+Country: JP
+Detected At: 2026-02-13T11:40:02.048472
+============================================================
+2026-02-13 11:40:02,951 | INFO     | Processed transaction: ID=TXN-295953, Amount=$4024.22, User=USER-2445
+2026-02-13 11:40:02,952 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $4024.22 exceeds threshold of $1000.00
+Transaction ID: TXN-295953
+User ID: USER-2445
+Amount: $4024.22
+Merchant: MERCH-483
+Country: FR
+Detected At: 2026-02-13T11:40:02.951909
+============================================================
+2026-02-13 11:40:02,952 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 10 transactions in the last minute
+Transaction ID: TXN-295953
+User ID: USER-2445
+Amount: $4024.22
+Merchant: MERCH-483
+Country: FR
+Detected At: 2026-02-13T11:40:02.951915
+============================================================
+2026-02-13 11:40:04,464 | INFO     | Processed transaction: ID=TXN-457727, Amount=$29.84, User=USER-1517
+2026-02-13 11:40:04,464 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 11 transactions in the last minute
+Transaction ID: TXN-457727
+User ID: USER-1517
+Amount: $29.84
+Merchant: MERCH-281
+Country: CA
+Detected At: 2026-02-13T11:40:04.464148
+============================================================
+2026-02-13 11:40:06,032 | INFO     | Processed transaction: ID=TXN-114512, Amount=$524.40, User=USER-3938
+2026-02-13 11:40:06,032 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 12 transactions in the last minute
+Transaction ID: TXN-114512
+User ID: USER-3938
+Amount: $524.40
+Merchant: MERCH-124
+Country: JP
+Detected At: 2026-02-13T11:40:06.032466
+============================================================
+2026-02-13 11:40:07,002 | INFO     | Processed transaction: ID=TXN-567988, Amount=$2750.25, User=USER-1886
+2026-02-13 11:40:07,002 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $2750.25 exceeds threshold of $1000.00
+Transaction ID: TXN-567988
+User ID: USER-1886
+Amount: $2750.25
+Merchant: MERCH-391
+Country: UK
+Detected At: 2026-02-13T11:40:07.002606
+============================================================
+2026-02-13 11:40:07,003 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 13 transactions in the last minute
+Transaction ID: TXN-567988
+User ID: USER-1886
+Amount: $2750.25
+Merchant: MERCH-391
+Country: UK
+Detected At: 2026-02-13T11:40:07.002618
+============================================================
+2026-02-13 11:40:08,799 | INFO     | Processed transaction: ID=TXN-880652, Amount=$3729.59, User=USER-3527
+2026-02-13 11:40:08,800 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $3729.59 exceeds threshold of $1000.00
+Transaction ID: TXN-880652
+User ID: USER-3527
+Amount: $3729.59
+Merchant: MERCH-858
+Country: FR
+Detected At: 2026-02-13T11:40:08.799615
+============================================================
+2026-02-13 11:40:08,800 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 14 transactions in the last minute
+Transaction ID: TXN-880652
+User ID: USER-3527
+Amount: $3729.59
+Merchant: MERCH-858
+Country: FR
+Detected At: 2026-02-13T11:40:08.799644
+============================================================
+2026-02-13 11:40:10,111 | INFO     | Processed transaction: ID=TXN-667943, Amount=$586.72, User=USER-4203
+2026-02-13 11:40:10,111 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 15 transactions in the last minute
+Transaction ID: TXN-667943
+User ID: USER-4203
+Amount: $586.72
+Merchant: MERCH-756
+Country: CA
+Detected At: 2026-02-13T11:40:10.111266
+============================================================
+2026-02-13 11:40:12,036 | INFO     | Processed transaction: ID=TXN-963061, Amount=$4728.68, User=USER-9595
+2026-02-13 11:40:12,036 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $4728.68 exceeds threshold of $1000.00
+Transaction ID: TXN-963061
+User ID: USER-9595
+Amount: $4728.68
+Merchant: MERCH-124
+Country: UK
+Detected At: 2026-02-13T11:40:12.036397
+============================================================
+2026-02-13 11:40:12,037 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 16 transactions in the last minute
+Transaction ID: TXN-963061
+User ID: USER-9595
+Amount: $4728.68
+Merchant: MERCH-124
+Country: UK
+Detected At: 2026-02-13T11:40:12.036421
+============================================================
+2026-02-13 11:40:13,937 | INFO     | Processed transaction: ID=TXN-117488, Amount=$1350.29, User=USER-5577
+2026-02-13 11:40:13,937 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟢 LOW
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $1350.29 exceeds threshold of $1000.00
+Transaction ID: TXN-117488
+User ID: USER-5577
+Amount: $1350.29
+Merchant: MERCH-459
+Country: FR
+Detected At: 2026-02-13T11:40:13.937266
+============================================================
+2026-02-13 11:40:13,937 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 17 transactions in the last minute
+Transaction ID: TXN-117488
+User ID: USER-5577
+Amount: $1350.29
+Merchant: MERCH-459
+Country: FR
+Detected At: 2026-02-13T11:40:13.937301
+============================================================
+2026-02-13 11:40:14,458 | INFO     | Processed transaction: ID=TXN-411422, Amount=$4563.71, User=USER-7892
+2026-02-13 11:40:14,459 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $4563.71 exceeds threshold of $1000.00
+Transaction ID: TXN-411422
+User ID: USER-7892
+Amount: $4563.71
+Merchant: MERCH-399
+Country: US
+Detected At: 2026-02-13T11:40:14.458490
+============================================================
+2026-02-13 11:40:14,459 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 18 transactions in the last minute
+Transaction ID: TXN-411422
+User ID: USER-7892
+Amount: $4563.71
+Merchant: MERCH-399
+Country: US
+Detected At: 2026-02-13T11:40:14.458537
+============================================================
+2026-02-13 11:40:15,472 | INFO     | Processed transaction: ID=TXN-249229, Amount=$2108.70, User=USER-9534
+2026-02-13 11:40:15,472 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $2108.70 exceeds threshold of $1000.00
+Transaction ID: TXN-249229
+User ID: USER-9534
+Amount: $2108.70
+Merchant: MERCH-917
+Country: DE
+Detected At: 2026-02-13T11:40:15.472377
+============================================================
+2026-02-13 11:40:15,472 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 19 transactions in the last minute
+Transaction ID: TXN-249229
+User ID: USER-9534
+Amount: $2108.70
+Merchant: MERCH-917
+Country: DE
+Detected At: 2026-02-13T11:40:15.472411
+============================================================
+2026-02-13 11:40:17,185 | INFO     | Processed transaction: ID=TXN-246011, Amount=$3763.69, User=USER-3287
+2026-02-13 11:40:17,185 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $3763.69 exceeds threshold of $1000.00
+Transaction ID: TXN-246011
+User ID: USER-3287
+Amount: $3763.69
+Merchant: MERCH-215
+Country: CA
+Detected At: 2026-02-13T11:40:17.185166
+============================================================
+2026-02-13 11:40:17,185 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 20 transactions in the last minute
+Transaction ID: TXN-246011
+User ID: USER-3287
+Amount: $3763.69
+Merchant: MERCH-215
+Country: CA
+Detected At: 2026-02-13T11:40:17.185192
+============================================================
+2026-02-13 11:40:18,642 | INFO     | Processed transaction: ID=TXN-923732, Amount=$3351.18, User=USER-1911
+2026-02-13 11:40:18,642 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟠 HIGH
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $3351.18 exceeds threshold of $1000.00
+Transaction ID: TXN-923732
+User ID: USER-1911
+Amount: $3351.18
+Merchant: MERCH-383
+Country: CA
+Detected At: 2026-02-13T11:40:18.642476
+============================================================
+2026-02-13 11:40:18,643 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 21 transactions in the last minute
+Transaction ID: TXN-923732
+User ID: USER-1911
+Amount: $3351.18
+Merchant: MERCH-383
+Country: CA
+Detected At: 2026-02-13T11:40:18.642491
+============================================================
+2026-02-13 11:40:19,842 | INFO     | Processed transaction: ID=TXN-774887, Amount=$1260.53, User=USER-6864
+2026-02-13 11:40:19,842 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟢 LOW
+============================================================
+Type: THRESHOLD_VIOLATION
+Message: Transaction amount $1260.53 exceeds threshold of $1000.00
+Transaction ID: TXN-774887
+User ID: USER-6864
+Amount: $1260.53
+Merchant: MERCH-566
+Country: FR
+Detected At: 2026-02-13T11:40:19.842269
+============================================================
+2026-02-13 11:40:19,842 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 22 transactions in the last minute
+Transaction ID: TXN-774887
+User ID: USER-6864
+Amount: $1260.53
+Merchant: MERCH-566
+Country: FR
+Detected At: 2026-02-13T11:40:19.842298
+============================================================
+2026-02-13 11:40:21,332 | INFO     | Processed transaction: ID=TXN-996471, Amount=$830.22, User=USER-7954
+2026-02-13 11:40:21,334 | WARNING  | 
+============================================================
+FRAUD ALERT - 🟡 MEDIUM
+============================================================
+Type: RAPID_TRANSACTIONS
+Message: User made 23 transactions in the last minute
+Transaction ID: TXN-996471
+User ID: USER-7954
+Amount: $830.22
+Merchant: MERCH-271
+Country: UK
+Detected At: 2026-02-13T11:40:21.332886
+============================================================

@@ -1,0 +1,1 @@
+["transaction_amount", "transaction_hour", "day_of_week", "card_present", "international", "distance_from_home", "prev_transaction_count", "avg_transaction_amount", "merchant_category"]
